@@ -8,7 +8,7 @@
 <body>
 
 <img class="自介頭貼"
-src="C:\Users\happy\Downloads\2022 TradingTrain鎚圈訓練">
+src="C:/Users/happy/Downloads/2022 TradingTrain鎚圈訓練/自介頭貼.png">
 </body>
 <h1>About me</h1>
 <h1>Skill</h1>
@@ -16,5 +16,5 @@ src="C:\Users\happy\Downloads\2022 TradingTrain鎚圈訓練">
  
 <p>Nice to meet you.</p>
  
-</body>
+
 </html>
