@@ -1,0 +1,16 @@
+@media (min-width: 300px) {
+    img{
+        width:30%; 
+        height:40%;
+        display: block;
+        margin:0 auto;
+    }    
+    h3{
+        color:black;
+        text-align:center;
+    }
+    p{
+        color:black;
+        text-align:center;
+    }
+}
