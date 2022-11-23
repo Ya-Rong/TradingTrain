@@ -1,0 +1,31 @@
+img{
+    width:600px; 
+    height:800px;
+    display: block;
+    margin:0 auto;
+}
+h1{
+    position:static;
+    color:black;
+    text-align:center;
+}
+h3{
+    color:black;
+    text-align:center;
+}
+p{
+    color:black;
+    text-align:center;
+}
+a{
+    color:black;
+    margin:0px auto;
+}
+.link{
+    position: absolute;
+	width: 100px;
+	height: 100px;
+    right: 0px;
+	left: 0px;
+    margin: auto;
+}
