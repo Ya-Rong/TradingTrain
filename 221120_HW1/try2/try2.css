@@ -1,108 +1,143 @@
 @media (min-width: 300px) {
-html,body {
-    background-color:#ffffff;
-}
-.title{
-    background-color: rgb(69, 83, 37);
-    opacity: 0.8;
-    width: 50%;
-    height: 40%;
-    border-radius: 20%;
-    margin: 0 auto;
-    border: 0.5px solid white;
-}
-h2{
-    color:black;
-    text-align:center;
-}
-h5{
-    color: black;
-    text-align: center;
-    font-size: 120%;
-    margin-top: 3%;
-}
-h6{
-    color: black;
-    text-align: center;
-    line-height: 180%;
-    margin-top: -1%;
-}
-.life{
-    position: absolute;
-    left: 5%;
-    width:20%; 
-    border: 3px solid #2c4705;
-    padding: 2%;
-    display: block;
-    margin:0 auto;
-    margin-top: 3%;
-}
-.work{
-    position: absolute;
-    left: 38%;
-    width:20%;
-    border: 3px solid #2c4705;
-    padding: 2%;
-    display: block;
-    margin:0 auto;
-    margin-top: 3%;
-}
-.light{
-    position: absolute;
-    left: 70%;
-    width:20%;
-    border: 3px solid #2c4705;
-    padding: 2%; 
-    display: block;
-    margin:0 auto;
-    margin-top: 3%;
-}
-img{
-    width:75%; 
-    height:100%;
-    display: block;
-    margin:0 auto;
-    margin-top: 3%;
-}
-p {
-    color: black;
-    text-align: center;
-    font-family:"Times New Roman";
-    font: size 15px;
-    background-color: #c3d0a4;
-    width: 75%;
-    height: 80%;
-    margin: auto;
-    margin-top: 3%;
-    opacity: 0.8;
-    border: 0.5px solid white;
-    border-radius: 5px;
-}
-.icon1{
-    width:3%;
-    display: block;
-    margin:0 auto;
-    margin-top: 3%;
-    margin-left: 46%;
-}
-.icon2{
-    width:3%;
-    display: block;
-    margin:0 auto;
-    margin-top: -3%;
-    margin-left: 51%;
-}
-.copyright{
-    color: black;
-    text-align: center;
-    font-size: 10%;
-    margin-top: 2%;
-}
-.link{
-    color: black;
-    text-align: center;
-    font-size: 10%;
-    margin-top: 3%;
-}
+
+    html,
+    body {
+        background-color: #ffffff;
+    }
+
+    .title {
+        background-color: rgb(69, 83, 37);
+        opacity: 0.8;
+        width: 50%;
+        height: 40%;
+        border-radius: 20%;
+        margin: 0 auto;
+        border: 0.5px solid white;
+    }
+
+    h2 {
+        color: black;
+        text-align: center;
+    }
+
+    h5 {
+        color: black;
+        text-align: center;
+        font-size: 150%;
+        margin-top: 3%;
+    }
+
+    h6 {
+        color: black;
+        text-align: center;
+        font-size: 100%;
+        line-height: 180%;
+        margin-top: -1%;
+    }
+
+    .life {
+        position: absolute;
+        left: 5%;
+        width: 22%;
+        border: 3px solid #2c4705;
+        padding: 2%;
+        display: block;
+        margin: 0 auto;
+        margin-top: 3%;
+    }
+
+    .work {
+        position: absolute;
+        left: 38%;
+        width: 22%;
+        border: 3px solid #2c4705;
+        padding: 2%;
+        display: block;
+        margin: 0 auto;
+        margin-top: 3%;
+    }
+
+    .light {
+        position: absolute;
+        left: 70%;
+        width: 22%;
+        border: 3px solid #2c4705;
+        padding: 2%;
+        display: block;
+        margin: 0 auto;
+        margin-top: 3%;
+    }
+
+    img {
+        width: 70%;
+        display: block;
+        margin: 0 auto;
+        margin-top: 2%;
+    }
+    .about{        
+        color: black;
+        text-align: center;
+        font-family: "Times New Roman";
+        font-size: 90%;
+        background-color: #c3d0a4;
+        width: 70%;
+        height: 80%;
+        margin: auto;
+        margin-top: 3%;
+        opacity: 0.8;
+        border: 0.5px solid white;
+        border-radius: 5px;
+    }
+    /* p {
+        color: black;
+        text-align: center;
+        font-family: "Times New Roman";
+        font: size 15px;
+        background-color: #c3d0a4;
+        width: 75%;
+        height: 80%;
+        margin: auto;
+        margin-top: 3%;
+        opacity: 0.8;
+        border: 0.5px solid white;
+        border-radius: 5px;
+    } */
+
+    .icon1 {
+        width: 3%;
+        display: block;
+        margin: 0 auto;
+        margin-top: 3%;
+        margin-left: 46%;
+    }
+
+    .icon2 {
+        width: 3%;
+        display: block;
+        margin: 0 auto;
+        margin-top: -3%;
+        margin-left: 51%;
+    }
+
+    .copyright {
+        color: black;
+        text-align: center;
+        font-size: 10%;
+        margin-top: 2%;
+    }
+
+    .link {
+        color: black;
+        text-align: center;
+        font-size: 10%;
+        margin-top: 3%;
+    }
+    .wish{
+        color: black;
+        text-align: center;
+        line-height: 180%;
+        margin-top: 53%;
+    }
+    
 
 }
