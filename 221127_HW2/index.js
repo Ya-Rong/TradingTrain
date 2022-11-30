@@ -71,7 +71,12 @@ function handleClick0 (MouseEvent) {
     resultE1.innerText = resultStr;
 };
 
-
+const buttona = document.getElementById('(');
+buttona.addEventListener('click', handleClicka);
+function handleClicka (MouseEvent) {
+    resultStr += '(';
+    resultE1.innerText = resultStr;
+};
 
 
 // // console.log('hello world');

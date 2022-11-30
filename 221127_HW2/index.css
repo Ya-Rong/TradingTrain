@@ -11,6 +11,9 @@
     min-height: 70px;
     display: flex;
     align-items: center;
+    max-width: 76%;
+    margin: 0 auto;
+    margin-bottom: 8px;
 }
 .buttonGroup button{
     width: calc((100%-24px) / 4);
@@ -19,6 +22,7 @@
     font-size: 24px;
     font-weight: bold;
     max-width: 200px;
+    margin: 0 auto;
     /* display: flex;
     flex-wrap: wrap;
     gap: 8px; */
