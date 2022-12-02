@@ -1,0 +1,6 @@
+const numberButtons = document.querySelectorAll('[data-number]')
+const operationButtons = document.querySelectorAll('[data-operation]')
+const equalsButton = document.querySelectorAll('[data-equals]')
+const allclearButton = document.querySelectorAll('[data-equals]')
+const percentButton = document.querySelectorAll('[data-equals]')
+const bracketButton = document.querySelectorAll('[data-equals]')

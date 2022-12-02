@@ -23,13 +23,12 @@
     font-size: 24px;
     font-weight: bold;
     max-width: 200px;
-    margin: 0 auto;
+    margin: 8px;            /* = gap: 8px;  */
 }
 .buttonGroup{
-    display: flex;
+    /* display: flex;
     flex-wrap: wrap;
-    gap: 8px;
-    max-width: 864px;
+    gap: 8px; */
     margin: 0 auto;
 }
 button{
@@ -37,5 +36,8 @@ button{
     writing-mode: horizontal-tb !important;
     /* font-style: ;
     font-variant-ligatures: ; */
+}
+.row{
+    text-align: center;
 }
 }

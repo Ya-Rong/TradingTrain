@@ -12,6 +12,10 @@
 //       這樣看起來功能跟 var 很相似。主要不同的地方在於 var 作用範圍是「整個」function。
 
 
+// 結果
+const resultE1 = document.getElementById('result');         // 結果
+let resultStr = '';
+
 // 數字0~9
 const buttonone = document.getElementById('one');                   // getElementById： 給文檔添加點擊事件：
 buttonone.addEventListener('click', handleClick1);                // document.addEventListener("click", myFunction);
@@ -85,9 +89,90 @@ function handleClick0 (MouseEvent) {
 
 // 運算符號
 const buttondivision = document.getElementById('division');
+buttondivision.addEventListener('click', handleClickdivision);
+function handleClickdivision (MouseEvent) {
+    resultStr += '/';
+    resultE1.innerText = resultStr;
+};
+
 const buttonmultiplication = document.getElementById('multiplication');
+buttonmultiplication.addEventListener('click', handleClickmultiplication);
+function handleClickmultiplication (MouseEvent) {
+    resultStr += '*';
+    resultE1.innerText = resultStr;
+};
+
 const buttonsubtraction = document.getElementById('subtraction');
+buttonsubtraction.addEventListener('click', handleClicksubtraction);
+function handleClicksubtraction (MouseEvent) {
+    resultStr += '-';
+    resultE1.innerText = resultStr;
+};
+
 const buttonaddition = document.getElementById('addition');
+buttonaddition.addEventListener('click', handleClickaddition);
+function handleClickaddition (MouseEvent) {
+    resultStr += '+';
+    resultE1.innerText = resultStr;
+};
+
+
+// 其他
+const buttonleft = document.getElementById('left');         // (
+buttonleft.addEventListener('click', handleClickleft);
+function handleClickleft (MouseEvent) {
+    resultStr += '(';
+    resultE1.innerText = resultStr;
+};
+
+const buttonright = document.getElementById('right');       // )
+buttonright.addEventListener('click', handleClickright);
+function handleClickright (MouseEvent) {
+    resultStr += ')';
+    resultE1.innerText = resultStr;
+};
+
+const buttonpercent = document.getElementById('percent');   // %
+buttonpercent.addEventListener('click', handleClickpercent);
+function handleClickpercent (MouseEvent) {
+    resultStr += '%';
+    resultE1.innerText = resultStr;
+};
+
+const buttonclear = document.getElementById('clear');       //  
+buttonclear.addEventListener('click', handleClickclear);
+function handleClickclear (MouseEvent) {
+    resultStr = '';
+    resultE1.innerText = '';
+};
+
+// 小數點
+const buttondot = document.getElementById('dot');           // .
+buttondot.addEventListener('click', handleClickdot);
+function handleClickdot (MouseEvent) {
+    resultStr += '.';
+    resultE1.innerText = resultStr;
+};
+
+// 等於
+const buttonequal = document.getElementById('equal');       // =
+buttonequal.addEventListener('click', handleClickequal);
+function handleClickequal (MouseEvent) {
+    resultStr += '=';
+    resultE1.innerText = resultStr;
+};
+
+// 運算
+
+
+
+
+
+
+
+
+
+
 
 // 數字0~9
 // const buttonone = document.getElementById("one");
@@ -100,28 +185,6 @@ const buttonaddition = document.getElementById('addition');
 // const buttoneight = document.getElementById("eight");
 // const buttonnine = document.getElementById("nine");
 // const buttonzero = document.getElementById("zero");
-
-// 其他
-const buttonleft = document.getElementById('left');         // (
-const buttonright = document.getElementById('right');       // )
-const buttonpercent = document.getElementById('percent');   // %
-const buttonclear = document.getElementById('clear');       //  
-
-// 小數點
-const buttondot = document.getElementById('dot');           // .
-
-// 等於
-const buttonequal = document.getElementById('equal');       // =
-
-// 結果
-const resultE1 = document.getElementById('result');         // 結果
-let resultStr = '';
-
-
-
-
-
-
 
 // // console.log('hello world');
 // // function test () {
