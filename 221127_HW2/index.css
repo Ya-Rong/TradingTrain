@@ -1,12 +1,12 @@
 @media (min-width: 150px){
-.container{
-    width: 70%;
+/* .container{
+    width: 30%;
     border-radius: 5%;
     border: 3px solid;
     background-color: azure;
     margin: 0 auto;
     box-sizing: border-box;
-}
+} */
 .result{
     box-sizing: border-box;
     width: 100%;
@@ -25,6 +25,7 @@
     margin-bottom: 8px;
     margin-top: 8px;
     background-color: rgb(197, 223, 220);
+    box-sizing: border-box;
 }
 .buttonGroup button{
     width: calc((100%-24px) / 4);
@@ -44,6 +45,7 @@
     margin-right: 5px;
     margin-left: 5px;
     margin-bottom: 5px;
+    box-sizing: border-box;
 }
 button{
     appearance: auto;
@@ -57,12 +59,14 @@ button{
 .row{
     display: flex;
     justify-content: center;
+    box-sizing: border-box;
 }
 .clear{
     display: flex;
     justify-content: center;
     margin-right: 5px;
     margin-left: 5px;
+    box-sizing: border-box;
 }
 .clear button{    
     width: calc(100%/2);
@@ -72,5 +76,6 @@ button{
     font-weight: bold;
     max-width: 416px;
     margin: 8px; 
+    box-sizing: border-box;
 }
 }

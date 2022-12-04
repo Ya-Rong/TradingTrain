@@ -117,21 +117,6 @@ function handleClickaddition (MouseEvent) {
 };
 
 
-// 其他
-const buttonbackspace = document.getElementById('backspace');   // ⇤
-buttonbackspace.addEventListener('click', handleClickbackspace);
-function handleClickbackspace (MouseEvent) {
-    resultStr = resultStr.substring(0, resultStr.length - 1);
-    resultE1.innerText = resultStr;
-};
-
-const buttonclear = document.getElementById('clear');       //  
-buttonclear.addEventListener('click', handleClickclear);
-function handleClickclear (MouseEvent) {
-    resultStr = '';
-    resultE1.innerText = '';
-};
-
 // 小數點
 const buttondot = document.getElementById('dot');           // .
 buttondot.addEventListener('click', handleClickdot);
@@ -146,6 +131,21 @@ buttonequal.addEventListener('click', handleClickequal);
 function handleClickequal (MouseEvent) {
     resultStr += resultStr;
     resultE1.innerText = resultStr;
+};
+
+// 其他
+const buttonbackspace = document.getElementById('backspace');   // ⇤
+buttonbackspace.addEventListener('click', handleClickbackspace);
+function handleClickbackspace (MouseEvent) {
+    resultStr = resultStr.substring(0, resultStr.length - 1);
+    resultE1.innerText = resultStr;
+};
+
+const buttonclear = document.getElementById('clear');       //  
+buttonclear.addEventListener('click', handleClickclear);
+function handleClickclear (MouseEvent) {
+    resultStr = '';
+    resultE1.innerText = '';
 };
 
 // 運算
@@ -164,6 +164,8 @@ function calculate() {
 
 
 
+// 數字轉換成陣列
+// console.log(resultStr.split(' '))
 
 // 數字0~9
 // const buttonone = document.getElementById("one");
