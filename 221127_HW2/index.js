@@ -118,24 +118,10 @@ function handleClickaddition (MouseEvent) {
 
 
 // 其他
-const buttonleft = document.getElementById('left');         // (
-buttonleft.addEventListener('click', handleClickleft);
-function handleClickleft (MouseEvent) {
-    resultStr += '(';
-    resultE1.innerText = resultStr;
-};
-
-const buttonright = document.getElementById('right');       // )
-buttonright.addEventListener('click', handleClickright);
-function handleClickright (MouseEvent) {
-    resultStr += ')';
-    resultE1.innerText = resultStr;
-};
-
-const buttonpercent = document.getElementById('percent');   // %
-buttonpercent.addEventListener('click', handleClickpercent);
-function handleClickpercent (MouseEvent) {
-    resultStr += '%';
+const buttonbackspace = document.getElementById('backspace');   // ⇤
+buttonbackspace.addEventListener('click', handleClickbackspace);
+function handleClickbackspace (MouseEvent) {
+    resultStr = resultStr.substring(0, resultStr.length - 1);
     resultE1.innerText = resultStr;
 };
 
@@ -158,12 +144,17 @@ function handleClickdot (MouseEvent) {
 const buttonequal = document.getElementById('equal');       // =
 buttonequal.addEventListener('click', handleClickequal);
 function handleClickequal (MouseEvent) {
-    resultStr += '=';
+    resultStr += resultStr;
     resultE1.innerText = resultStr;
 };
 
 // 運算
-
+// 加
+function calculate() {
+    var p = document.getElementById("resultStr").resultStr;
+    var q = eval(p);
+    document.getElementById("resultStr").resultStr = q;
+}
 
 
 
