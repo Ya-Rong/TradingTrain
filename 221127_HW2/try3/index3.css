@@ -1,81 +1,85 @@
-@media (min-width: 150px){
-    /* .container{
-        width: 30%;
-        border-radius: 5%;
-        border: 3px solid;
-        background-color: azure;
-        margin: 0 auto;
-        box-sizing: border-box;
-    } */
-    .result{
-        box-sizing: border-box;
-        width: 100%;
-        font-size: 50px;
-        line-height: 1;
-        font-weight: bold;
-        padding: 10px 20px;
-        border: 3px solid black;
-        border-radius: 12px;
-        margin-bottom: 12px;
-        min-height: 70px;
-        display: flex;
-        align-items: center;
-        max-width: 90%;
-        margin: 0 auto;
-        margin-bottom: 8px;
-        margin-top: 8px;
-        background-color: rgb(197, 223, 220);
-        box-sizing: border-box;
-    }
-    .buttonGroup button{
-        width: calc((100%-24px) / 4);
-        padding-top: 10px;
-        padding-bottom: 10px;
-        font-size: 24px;
-        font-weight: bold;
-        max-width: 200px;
-        margin: 8px;            /* = gap: 8px;  */
-        box-sizing: border-box;
-    }
-    .buttonGroup{
-        /* display: flex;
-        flex-wrap: wrap;
-        gap: 8px; */
-        margin: 0 auto;
-        margin-right: 5px;
-        margin-left: 5px;
-        margin-bottom: 5px;
-        box-sizing: border-box;
-    }
-    button{
-        appearance: auto;
-        writing-mode: horizontal-tb !important;
-        border-radius: 3px;
-        background-color: rgb(190, 222, 220);
-        box-sizing: border-box;
-        /* font-style: ;
-        font-variant-ligatures: ; */
-    }
-    .row{
-        display: flex;
-        justify-content: center;
-        box-sizing: border-box;
-    }
-    .clear{
-        display: flex;
-        justify-content: center;
-        margin-right: 5px;
-        margin-left: 5px;
-        box-sizing: border-box;
-    }
-    .clear button{    
-        width: calc(100%/2);
-        padding-top: 10px;
-        padding-bottom: 10px;
-        font-size: 24px;
-        font-weight: bold;
-        max-width: 416px;
-        margin: 8px; 
-        box-sizing: border-box;
-    }
-    }
+body{
+    margin: 0 auto;
+}
+
+#result{
+    box-sizing: border-box;
+    width: 75%;
+    font-size: 50px;
+    line-height: 1;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 3px solid black;
+    border-radius: 12px;
+    margin-bottom: 12px;
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    max-width: 90%;
+    margin: 0 auto;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    background-color: rgb(221, 239, 237);
+    box-sizing: border-box;
+}
+
+.btn {
+    outline: none;
+    height: 45px;
+    appearance: auto;
+    writing-mode: horizontal-tb !important;
+    background-color: rgb(190, 222, 220);
+    width: calc((100%-24px) / 4);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    max-width: 200px;
+    margin: 8px;            /* = gap: 8px;  */
+    box-sizing: border-box;
+    border-radius: 25px;
+}
+
+.clear{
+    display: flex;
+    justify-content: center;
+    margin-right: 5px;
+    margin-left: 5px;
+    box-sizing: border-box;
+}
+
+.button_clear {
+    padding: 5px;
+    outline: none;
+    border-radius: 25px;
+    background-color: rgb(103, 143, 143);
+    color: rgb(0, 10, 10);
+    height: 45px;
+    width: calc(100%/2);
+    font-size: 24px;
+    font-weight: bold;
+    max-width: 416px;
+    margin: 8px; 
+    box-sizing: border-box;
+}
+
+.button_back {
+    padding: 5px;
+    outline: none;
+    border-radius: 25px;
+    background-color: rgb(103, 143, 143);
+    color: rgb(0, 10, 10);
+    height: 45px;
+    width: calc(100%/2);
+    font-size: 24px;
+    font-weight: bold;
+    max-width: 416px;
+    margin: 8px; 
+    box-sizing: border-box;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}

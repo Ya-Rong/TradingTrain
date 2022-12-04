@@ -8,37 +8,44 @@
     <script src="index3.js"></script>    
     <title>Calculator</title>
 </head>
-
+<body>
     <div class="center">
             <br>
             <input type="text" id="result" value="">
+            <div class="clear">
             <br>
-            <br><input type="button" class="button_clear" value="Clear" onclick="clearScreen();">
-            <input type="button" class="button_back" value="Back" onclick="backspace();">
-            <br>
-            <input type="button" class="btn number" value="1" onclick="display('1');">
-            <input type="button" class="btn number" value="2" onclick="display('2');">
-            <input type="button" class="btn number" value="3" onclick="display('3');">
-            <input type="button" class="btn operator" value="/" onclick="display('/');">
-            <br />
-            <input type="button" class="btn number" value="4" onclick="display('4');">
-            <input type="button" class="btn number" value="5" onclick="display('5');">
-            <input type="button" class="btn number" value="6" onclick="display('6');">
-            <input type="button" class="btn operator" value="*" onclick="display('*');">
-            <br>
-            <input type="button" class="btn number" value="7" onclick="display('7');">
-            <input type="button" class="btn number" value="8" onclick="display('8');">
-            <input type="button" class="btn number" value="9" onclick="display('9');">
-            <input type="button" class="btn operator" value="-" onclick="display('-');">
-            <br />
-            <input type="button" class="btn number" value="0" onclick="display('0');">
-            <input type="button" class="btn number" value="." onclick="display('.');">
-            <input type="button" class="btn other" value="=" onclick="calculate();">
-            <input type="button" class="btn operator" value="+" onclick="display('+');">
-            <br />
-        
+            <input type="button" class="button_clear" value="AC" onclick="clearScreen();">
+            <input type="button" class="button_back" value="backspace" onclick="backspace();">
+            </div>
+            <div class="row">
+                <input type="button" class="btn number" value="1" onclick="display('1');">
+                <input type="button" class="btn number" value="2" onclick="display('2');">
+                <input type="button" class="btn number" value="3" onclick="display('3');">
+                <input type="button" class="btn operator" value="/" onclick="display('/');">
+                <br />
+            </div>
+            <div class="row">
+                <input type="button" class="btn number" value="4" onclick="display('4');">
+                <input type="button" class="btn number" value="5" onclick="display('5');">
+                <input type="button" class="btn number" value="6" onclick="display('6');">
+                <input type="button" class="btn operator" value="*" onclick="display('*');">
+                <br>
+            </div>
+            <div class="row">
+                <input type="button" class="btn number" value="7" onclick="display('7');">
+                <input type="button" class="btn number" value="8" onclick="display('8');">
+                <input type="button" class="btn number" value="9" onclick="display('9');">
+                <input type="button" class="btn operator" value="-" onclick="display('-');">
+                <br />
+            </div>            
+            <div class="row">
+                <input type="button" class="btn number" value="0" onclick="display('0');">
+                <input type="button" class="btn number" value="." onclick="display('.');">
+                <input type="button" class="btn other" value="=" onclick="calculate();">
+                <input type="button" class="btn operator" value="+" onclick="display('+');">
+                <br />
+            </div>
+            
     </div>
-
 </body>
-
 </html>
