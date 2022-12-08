@@ -1,0 +1,36 @@
+@media(min-width: 150px) {
+header {
+    background-color: antiquewhite;
+    display: flex
+    
+}
+
+header button {
+    display: flex;
+    /* margin-top: 3%;
+    margin-left: 5%; */
+    text-align: center;
+    height: 25px;
+    cursor:pointer;
+}
+
+table th {
+    width: calc(100% / 5);
+    margin: 0 auto;
+
+}
+table td {
+    width: calc(100% / 5);
+    margin: 0 auto;
+
+}
+
+table td button {
+    cursor:pointer;
+}
+
+button {
+    cursor:pointer;
+}
+
+}
