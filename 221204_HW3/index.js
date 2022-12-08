@@ -2,6 +2,7 @@ const nickNameE1 = document.getElementById('nickName');
 const emailE1 = document.getElementById('email');
 const phoneE1 = document.getElementById('phone');
 const addButton = document.getElementById('addButton');
+const deleteButton = document.getElementById('deleteButton');
 const tbody = document.getElementById('tbody');
 addButton.addEventListener('click', addNewRow);
 
@@ -9,7 +10,7 @@ function addNewRow () {
     const nickName = nickNameE1.value;
     const email = emailE1.value;
     const phone = phoneE1.value;
-    console.log((nickName, email, phone ));
+    // console.log((nickName, email, phone ));
     const tr document.createElement('tr');
     const td1 document.createElement('td');
     const td2 document.createElement('td');
@@ -29,15 +30,12 @@ function addNewRow () {
     tbody.appendChild(tr);
 
 }
-    
-        
-    
 
+deleteButton.remove();
 
+// function deleteRow () {
 
-function deleteRow () {
-
-}
+// }
 
 // const members = [{
 //     name: '123',
