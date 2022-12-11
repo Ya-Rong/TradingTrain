@@ -1,36 +1,76 @@
 @media(min-width: 150px) {
+
 header {
-    background-color: antiquewhite;
-    display: flex
-    
+    background-color: rgb(208, 225, 243);
+    display: flex;
+    flex-wrap: wrap;    
 }
 
-header button {
-    display: flex;
-    /* margin-top: 3%;
-    margin-left: 5%; */
+/* header button {
+    display: table;
+    flex-wrap: wrap;
     text-align: center;
     height: 25px;
     cursor:pointer;
+} */
+
+table {
+    display: table;
+    border-collapse: collapse;
+    width: 100%;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
 }
 
-table th {
-    width: calc(100% / 5);
+.tableContainer {
     margin: 0 auto;
-
-}
-table td {
-    width: calc(100% / 5);
     margin: 0 auto;
-
+    width: 100%;
+    display: block;
 }
 
-table td button {
+thead{
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+    height: 40px;
+    width: 100%;
+}
+
+th {
+    background-color: rgb(182, 227, 247);
+    border: 1px solid whitesmoke;
+    color: black;
+}
+
+td {
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid rgb(245, 243, 243);
+    color: black;
+}
+
+td button {
     cursor:pointer;
+    margin: 2px;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+input {
+    height: 20px;       
+    margin-top: 10px;
 }
 
 button {
+    margin: 2px;
     cursor:pointer;
+}
+
+#addbutton{
+    height: 20px;       
+    margin-top: 10px;
 }
 
 }
