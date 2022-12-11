@@ -11,7 +11,6 @@ function addNewRow () {
     const nickName = nickNameE1.value;
     const email = emailE1.value;
     const phone = phoneE1.value;
-    // console.log((nickName, email, phone ));
     const tr = document.createElement('tr');
     const td1 = document.createElement('td');
     const td2 = document.createElement('td');
@@ -21,7 +20,7 @@ function addNewRow () {
     td1.innerText = nickName;
     td2.innerText = email;
     td3.innerText = phone;
-    td4.innerText = new Date().toLocaleString(); //目前這樣可以直接顯示台北標準時間(加後面這串時間會出錯) .toISOString()
+    td4.innerText = new Date().toLocaleString();
     td5.innerHTML = '<button>修改</button><button>刪除</button>';
     tr.appendChild(td1);
     tr.appendChild(td2);
@@ -32,23 +31,32 @@ function addNewRow () {
 }
 
 // 這邊後面還沒寫完，還需要改
+// const tr = document.createElement('tr');
+// tr.children[4].children[1].addEventListener('click', function () {
+//     tr.remove();
+// });
 
-
+// nickNameE1.value = '';
+// emailE1.value = '';
+// phoneE1.value = '';
+// const element = document.getElementById("tr");
+// element.remove(tr);
 function deleteRow () {
+    const nickName = nickNameE1.value;
+    const email = emailE1.value;
+    const phone = phoneE1.value;
     const tr = document.getElementById('tr');
     const td1 = document.getElementById('td');
     const td2 = document.getElementById('td');
     const td3 = document.getElementById('td');
     const td4 = document.getElementById('td');
     const td5 = document.getElementById('td');
-    tr.parentNode.removeChild(tr);
-    td1.parentNode.removeChild(td);
-    td2.parentNode.removeChild(td);
-    td3.parentNode.removeChild(td);
-    td4.parentNode.removeChild(td);
-    td5.parentNode.removeChild(td);
-    // const tbody = document.getElementById(tbody);
-    // tbody.deleteCell();
+    tr.removeChild(td);
+    td1.removeChild(td);
+    td2.removeChild(td);
+    td3.removeChild(td);
+    td4.removeChild(td);
+    td5.removeChild(td);
 }
 
 // const members = [{
