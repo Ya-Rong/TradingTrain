@@ -58,7 +58,6 @@ td {
 td button {
     cursor:pointer;
     margin: 2px;
-    text-align: center;
     border-collapse: collapse;
 }
 

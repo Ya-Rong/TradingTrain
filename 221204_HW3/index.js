@@ -2,10 +2,9 @@ const nickNameE1 = document.getElementById('nickName');
 const emailE1 = document.getElementById('email');
 const phoneE1 = document.getElementById('phone');
 const addButton = document.getElementById('addButton');
-const deleteButton = document.getElementById('deleteButton');
 const tbody = document.getElementById('tbody');
 addButton.addEventListener('click', addNewRow);
-deleteButton.addEventListener('click', deleteRow);
+
 
 function addNewRow () {
     const nickName = nickNameE1.value;
@@ -31,32 +30,21 @@ function addNewRow () {
 }
 
 // 這邊後面還沒寫完，還需要改
-// const tr = document.createElement('tr');
-// tr.children[4].children[1].addEventListener('click', function () {
-//     tr.remove();
-// });
-
-// nickNameE1.value = '';
-// emailE1.value = '';
-// phoneE1.value = '';
-// const element = document.getElementById("tr");
-// element.remove(tr);
+const deleteButton = document.getElementById('deleteButton');
+deleteButton.addEventListener('click', deleteRow);
 function deleteRow () {
-    const nickName = nickNameE1.value;
-    const email = emailE1.value;
-    const phone = phoneE1.value;
     const tr = document.getElementById('tr');
     const td1 = document.getElementById('td');
     const td2 = document.getElementById('td');
     const td3 = document.getElementById('td');
     const td4 = document.getElementById('td');
     const td5 = document.getElementById('td');
-    tr.removeChild(td);
-    td1.removeChild(td);
-    td2.removeChild(td);
-    td3.removeChild(td);
-    td4.removeChild(td);
-    td5.removeChild(td);
+    Node.removeChild(tr);
+    Node.removeChild(td1);
+    Node.removeChild(td2);
+    Node.removeChild(td3);
+    Node.removeChild(td4);
+    Node.removeChild(td5);
 }
 
 // const members = [{
