@@ -55,10 +55,11 @@ td {
     color: black;
 }
 
-td button {
+#delete{
+    height: 25px;       
+    margin-top: 10px;
+    margin: 4px;
     cursor:pointer;
-    margin: 2px;
-    border-collapse: collapse;
 }
 
 input {
