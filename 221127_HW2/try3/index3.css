@@ -2,7 +2,7 @@ body{
     margin: 0 auto;
 }
 
-#result{
+input{
     width: 75%;
     font-size: 50px;
     line-height: 1;
@@ -36,6 +36,7 @@ body{
     margin: 8px;            /* = gap: 8px;  */
     box-sizing: border-box;
     border-radius: 25px;
+    cursor:pointer;
 }
 
 .clear{
@@ -47,7 +48,6 @@ body{
 }
 
 .button_clear {
-    padding: 5px;
     outline: none;
     border-radius: 25px;
     background-color: rgb(103, 143, 143);
@@ -56,9 +56,11 @@ body{
     width: calc(100%/2);
     font-size: 24px;
     font-weight: bold;
+    text-align: center;
     max-width: 416px;
     margin: 8px; 
     box-sizing: border-box;
+    cursor:pointer;
 }
 
 .button_back {
@@ -74,6 +76,7 @@ body{
     max-width: 416px;
     margin: 8px; 
     box-sizing: border-box;
+    cursor:pointer;
 }
 
 .row{
