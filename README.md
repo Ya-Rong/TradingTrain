@@ -8,7 +8,7 @@
 #### member management
 ##### [HW3_faildelete、HW4_adjust](https://ya-rong.github.io//TradingTrain/221204_HW3/index.html)
 #### crawler flowchart
-##### [HW4_crawler_flowchart](C:\Users\happy\Downloads\GitHub_TradingTrain\TradingTrain\221211_HW4\HW4_crawler_flowchart.png)
+##### [HW4_crawler_flowchart](https://github.com/Ya-Rong/TradingTrain/blob/main/221211_HW4/HW4_crawler_flowchart.png)
 #### crawler
-##### [HW4_crawler](https://github.com/Ya-Rong/TradingTrain/blob/main/221211_HW4/Demo%20copy.ipynb)
+##### [HW4_crawler](https://github.com/Ya-Rong/TradingTrain/blob/main/221211_HW4/HW4_try3.ipynb)
 
