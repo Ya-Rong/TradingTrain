@@ -43,6 +43,9 @@ function deleteRow (button) {
     button.parentNode.parentNode.remove();
 }
 
+// modify row
+
+
 // 後面還需要改
 // const deleteButton = document.getElementById('delete');
 // deleteButton.addEventListener('click', deleteRow);
