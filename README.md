@@ -11,4 +11,8 @@
 ##### [HW4_crawler_flowchart](https://github.com/Ya-Rong/TradingTrain/blob/main/221211_HW4/HW4_crawler_flowchart_2.png)
 #### crawler
 ##### [HW4_crawler](https://github.com/Ya-Rong/TradingTrain/blob/main/221211_HW4/HW4_try5%20copy.ipynb)
-
+#### wireframe
+##### [HW5_wireframe_PC](https://github.com/Ya-Rong/TradingTrain/blob/main/230103_HW5/PC.png)
+##### [HW5_wireframe_MINI_PC](https://github.com/Ya-Rong/TradingTrain/blob/main/230103_HW5/MINI%20PC.png)
+##### [HW5_wireframe_PAD](https://github.com/Ya-Rong/TradingTrain/blob/main/230103_HW5/PAD.png)
+##### [HW5_wireframe_MOB](https://github.com/Ya-Rong/TradingTrain/blob/main/230103_HW5/MOB.png)
