@@ -1,0 +1,43 @@
+.title {
+    color: black;
+}
+
+.red {
+    color: red;
+}
+.orange {
+    color: orange;
+}
+/* text-align */
+#align {
+    width: 60%;
+    background-color: aquamarine;
+}
+.box {
+    text-align:center;
+}
+/* vertical-align */
+.box2 span {
+    display: inline-block;
+}
+.box2 img {
+    vertical-align: middle;
+}
+.box3__text {
+  display: table-cell;
+  vertical-align: middle;
+}
+/* margin */
+.row {
+    width: 500px;
+    margin: 0 auto;
+}
+.row__container {
+    width: 50%;
+    float: left;
+}
+.col {
+    background-color: aqua;
+    width: 60%;
+    margin: 0 auto;
+}
