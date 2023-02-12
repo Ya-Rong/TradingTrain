@@ -8,8 +8,8 @@
 </head>
 <body>
     <h1 class="title">排版練習</h1>
-    <div class="red">1</div>
-    <div class="orange">2</div>
+    <!-- <div class="red">1</div>
+    <div class="orange">2</div> -->
 
     <!-- text-align -->
     <h2>text-align</h2>
@@ -159,6 +159,81 @@
         <div class="absolute"></div>
         <div class="absolute1"></div>
     </div>
-    
+    <!-- margin -->
+    <div>
+        <h2>margin</h2>
+        <div class="margin-a"></div>
+        <div class="margin-b"></div>
+    </div>
+    <!-- padding -->
+    <div>
+        <h2>padding</h2>
+        <div class="paddingborder"></div>
+    </div>
+    <!-- border -->
+    <div>
+        <h2>border</h2>
+        <div class="boxborder1"></div>
+        <div class="boxborder2"></div>
+        <div class="boxborder3"></div>
+        <div class="boxborder4"></div>
+    </div>
+    <!-- box-sizing -->
+    <div class="box-sizing">
+        <h2>box-sizing</h2>
+        <div class="box1">
+            <div class="initial">沒有加box狀態,沒有加box狀態,沒有加box狀態,沒有加box狀態</div>
+        </div>
+        <div class="box2">
+            <div class="border-box">加了border-box,加了border-box,加了border-box,加了border-box</div>
+        </div>
+        <div class="box3">
+            <div class="content-box">加了content-box會超出去,加了content-box會超出去,加了content-box會超出去</div>
+        </div>
+    </div>
+    <!-- p -->
+    <div class="p">
+        <h2>p 的用法</h2>
+        <p>代表文章段落文字</p>
+    </div>
+    <!-- a -->
+    <div class="a">
+        <h2>a 的用法</h2>
+        <a href="https://github.com/Ya-Rong/TradingTrain">超連結 href 跳出連結網址覆蓋網頁</a> <br>
+        <a href="https://github.com/Ya-Rong/TradingTrain" target="_blank">超連結 target 自動開新分頁</a>
+    </div> 
+    <!-- href -->
+    <div class="href">
+        <h2>href 的用法</h2>
+        <p>href 屬性指定 Web 資源的位置，從而定義當前元素或當前文檔與此屬性定義的目標錨點或資源之間的鏈接或關係。</p>
+    </div>
+    <!-- src -->
+    <div class="src">
+        <h2>src 的用法</h2>
+        <p>“ src ” 屬性只是將資源嵌入當前文檔中元素定義的位置。
+        </p>
+    </div>
+    <!-- class命名 -->
+    <div class="class">
+        <h2>class命名</h2>
+        <p> 1.元素避免直接用 相對關係 命名<br>
+            2.色彩等樣式避免直接用 顏色 命名，改以風格命名<br>
+            3.Layout 避免用 位置 命名
+        </p>
+        <p>BEM方式<br>
+            以「區塊__元素 — 樣式」命名<br>
+            舉例: 一個header區塊,裡面有button元素,和樣式修飾active和disable<br>
+            命名就會是：<br>
+            .header<br>
+            .header_button-active<br>
+            .header_button-disable
+        </p>
+    </div>
+    <!-- picture & img -->
+    <div>
+        <h2>picture & img</h2>
+        <p>picture 本身是一個容器,沒有自己的屬性。而被包含在其中的 source 則是用於載入圖片,會包含許多圖片資訊</p>
+        <p>img 元素作為 picture 標籤中的預設圖片、當瀏覽器不支援 picture 標籤或是沒有符合的 source 時，則直接顯示 img</p>
+    </div>
 </body>
 </html>

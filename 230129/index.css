@@ -257,8 +257,8 @@
 }
 /* position:absolute */
 #absolute {
+    height: 300px;
     position: relative;
-    margin-top: 15%;
     left: 0px;
 }
 .absolute {
@@ -277,4 +277,79 @@
     top: 50%;
     left: 50%;
     margin: -75px 0 0 -75px;
+}
+/* margin */
+.margin-a {
+    width: 100px;
+    height: 100px;
+    border: 5px black solid;
+}
+.margin-b {
+    width: 100px;
+    height: 100px;
+    border: 5px red solid;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+/* padding */
+.paddingborder {
+    width: 100px;
+    height: 100px;
+    border: 5px black solid;
+    padding: 10px 5px 5px 10px;
+}
+/* border */
+.boxborder1 {
+    border-width: 30px;
+    border-style: solid;
+    border-color: black;
+    height: 50px;
+    width: 50px;
+}
+.boxborder2 {
+    border-width: 30px;
+    border-style: solid;
+    border-color: red green orange black;
+    height: 50px;
+    width: 50px;
+    margin-top: 10px;
+}
+.boxborder3 {
+    border-width: 30px;
+    border-style: solid;
+    border-color: red green orange black;
+    height: 1px;
+    width: 1px;
+    margin-top: 10px;
+}
+.boxborder4 {
+    border-width: 30px;
+    border-style: solid;
+    border-color: transparent transparent orange transparent;
+    height: 1px;
+    width: 1px;
+    margin-top: 10px;
+}
+/* box-sizing */
+.box1, .box2, .box3 {
+    width: 300px;
+    border: 5px black solid;
+    margin-top: 10px;
+}
+.initial {
+    width: 100%;
+    border: 5px red solid;
+    padding: 5px;
+}
+.border-box {
+    width: 100%;
+    border: 5px red solid;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.content-box {
+    width: 100%;
+    border: 5px red solid;
+    padding: 5px;
+    box-sizing: content-box;
 }
