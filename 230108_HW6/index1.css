@@ -1,0 +1,65 @@
+/* 圖解新聞 */
+.graphic-news {
+    border: 5px solid black;
+    background-color: rgb(245, 245, 245);
+    height: 100%;
+    margin-top: 40px;
+    position: relative;
+    /* box-sizing: border-box;
+    display: block;
+    font-size: 16px;
+    line-height: 18.4px; */
+    text-align: center;
+}
+.context-box_header {
+    border: 5px solid gray;
+    /* align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    font-size: 16px;
+    height: 39px;
+    line-height: 18.4px;
+    margin: 40px 0px 24px 0px; */
+}
+.context-box_title {
+    border: 5px solid blue;
+    box-sizing: border-box;
+    color: rgb(158, 158, 158);
+    display: block;
+    font-size: 30px;
+    height: 39px;
+    line-height: 30px;
+    margin: 0px;
+    position: relative;
+}
+.story-list_news {
+    border: 5px solid green;
+    box-sizing: border-box;
+    display: flex;
+    font-size: 16px;
+    height: 310px;
+    line-height: 18.4px;
+    margin-bottom: 42px;
+    position: relative;
+}
+.story-list_image {
+    border: 5px solid greenyellow;
+    width: 465px;
+}
+.story-list_text {
+    border: 5px solid brown;
+}
+.story-list_title {
+    border: 5px solid black;
+
+}
+a {
+    box-sizing: border-box;
+    background-color: transparent;
+    color: black;
+    font-size: 30px;
+}
+/* .lazyloaded {
+    border: 5px solid black;
+
+} */
