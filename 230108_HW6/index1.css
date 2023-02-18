@@ -1,28 +1,26 @@
 /* 圖解新聞 */
 .graphic-news {
-    border: 5px solid black;
+    border: 1px solid black;
     background-color: rgb(245, 245, 245);
+    width: 70%;
     height: 100%;
     margin-top: 40px;
     position: relative;
-    /* box-sizing: border-box;
-    display: block;
-    font-size: 16px;
-    line-height: 18.4px; */
     text-align: center;
 }
+/* 標題區塊 */
 .context-box_header {
-    border: 5px solid gray;
-    /* align-items: center;
+    border: 1px solid gray;
+    align-items: center;
     box-sizing: border-box;
     display: flex;
     font-size: 16px;
     height: 39px;
     line-height: 18.4px;
-    margin: 40px 0px 24px 0px; */
+    margin: 40px 0px 24px 0px;
 }
+/* 標題字 */
 .context-box_title {
-    border: 5px solid blue;
     box-sizing: border-box;
     color: rgb(158, 158, 158);
     display: block;
@@ -33,7 +31,7 @@
     position: relative;
 }
 .story-list_news {
-    border: 5px solid green;
+    border: 1px solid green;
     box-sizing: border-box;
     display: flex;
     font-size: 16px;
@@ -42,24 +40,148 @@
     margin-bottom: 42px;
     position: relative;
 }
+/* 圖片 */
 .story-list_image {
-    border: 5px solid greenyellow;
+    border: 1px solid greenyellow;
     width: 465px;
 }
+/* 文章標題內容區塊 */
 .story-list_text {
-    border: 5px solid brown;
+    border: 1px solid brown;
+    box-sizing: border-box;
 }
+/* 文章標題字 */
 .story-list_title {
-    border: 5px solid black;
-
+    border: 1px solid black;
+    box-sizing: border-box;
 }
+/* 文章內容字 */
 a {
     box-sizing: border-box;
     background-color: transparent;
     color: black;
     font-size: 30px;
 }
-/* .lazyloaded {
-    border: 5px solid black;
-
-} */
+/* 今日報紙 */
+.newspaper-news {
+    border: 1px solid black;
+    background-color: rgb(245, 245, 245);
+    width: 30%;
+    height: 100%;
+    /* margin-top: 40px; */
+    text-align: center;
+    position: relative;
+    /* 還沒水平對齊 */
+    top: -456px;
+    left: 70%;
+}
+/*  */
+/* 國際 財經 */
+/*  */
+/* 國際財經標題字 */
+.section-news .context-box_header .context-box_title a {
+    color: #9E9E9E;
+    line-height: 39px;
+}
+/* 國際 財經 區塊 */
+.section-news_wrapper {
+    display: flex;
+    margin-bottom: 48px;
+    box-sizing: border-box;
+}
+.story-list_text .story-list_title {
+    font-size: 20px;
+    line-height: 30px;
+    width: 100%;
+    margin-top: 16px;
+    display: flex;
+    position: relative;
+}
+/* 左側 */
+.story-list_news.section-news_left {
+    width: 75%;
+}
+.story-list_news.section-news_left .section-news .story-list_image {
+    width: 55%;
+}
+.section-news .section-news_wrapper .story-list_text {
+    float: left;
+}
+/* 主題小標 */
+.story-list_news.section-news_left .story-list_sub {
+    position: relative;
+}
+/* 文章標題 */
+.story-list_news.section-news_left .story-list_subtitle {
+    position: relative;
+}
+/* 文章內容 */
+.story-list_subtext {
+    position: relative;
+}
+/* 右側 */
+.story-list_news.section-news_right {
+    width: 25%;
+    position: relative;
+    display: flex;
+}
+.story-list_news.section-news_right .section-news .story-list_image {
+    width: 100%;
+}
+/* 主題小標 */
+.story-list_news.section-news_right .story-list_sub {
+    position: relative;
+}
+/* 文章標題 */
+.story-list_news.section-news_right .story-list_subtitle {
+    position: relative;
+}
+/* 文章內容 */
+.story-list_subtext {
+    position: relative;
+}
+/*  */
+/* 領讀人 */
+/*  */
+/* 領讀人區塊 */
+.leader-reader {
+    border: 1px solid black;
+    background-color: rgb(245, 245, 245);
+}
+/* 領讀人標題字 */
+.leader-reader .context-box_header {
+    margin-top: 56px;
+    margin-bottom: 25px;
+    display: flex;
+}
+.leader-reader_wrapper {
+    margin-bottom: 40px;
+    position: relative;
+    box-sizing: border-box;
+    display: block;
+}
+.splide_list {
+    display: flex;
+    box-sizing: border-box;
+}
+/* 領讀人左右區 */
+.splide_splide.leader-reader_box {
+    margin-right: 40px;
+    width: 620px;
+}
+/* 領讀人左區左半部 */
+.author-list.leader-reader_left {
+    max-width: 193px;
+    width: 100%;
+    position: relative;
+}
+/* 領讀人左區右半部 */
+.leader-reader_right {
+    max-width: 403px;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+    /* 高度還沒對齊 */
+    top: -365px;
+    left: 33%;
+}
