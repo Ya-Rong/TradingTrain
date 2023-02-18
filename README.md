@@ -18,4 +18,5 @@
 ##### [HW5_wireframe_PAD](https://github.com/Ya-Rong/TradingTrain/blob/main/230103_HW5/PAD.png)
 ##### [HW5_wireframe_MOB](https://github.com/Ya-Rong/TradingTrain/blob/main/230103_HW5/MOB.png)
 #### wireframe_刻成網頁
-##### [HW6_wireframe_刻成網頁]()
+<!-- ##### [HW6_wireframe_刻成網頁]() -->
+##### [webframe](https://ya-rong.github.io//TradingTrain/230108_HW6/index1.html)
