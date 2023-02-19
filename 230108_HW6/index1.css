@@ -31,7 +31,7 @@
     position: relative;
 }
 .story-list_news {
-    border: 1px solid green;
+    border: 1px solid red;
     box-sizing: border-box;
     display: flex;
     font-size: 16px;
@@ -62,7 +62,9 @@ a {
     color: black;
     font-size: 30px;
 }
+/*  */
 /* 今日報紙 */
+/*  */
 .newspaper-news {
     border: 1px solid black;
     background-color: rgb(245, 245, 245);
@@ -89,13 +91,14 @@ a {
     margin-bottom: 48px;
     box-sizing: border-box;
 }
+/* 世界鏡頭 文章標題 */
 .story-list_text .story-list_title {
     font-size: 20px;
     line-height: 30px;
     width: 100%;
     margin-top: 16px;
-    display: flex;
-    position: relative;
+    /* display: flex;
+    position: relative; */
 }
 /* 左側 */
 .story-list_news.section-news_left {
@@ -175,6 +178,17 @@ a {
     width: 100%;
     position: relative;
 }
+/* 姓名 職稱 */
+.author-list.leader-reader_left .author-list_info {
+    box-sizing: border-box;
+    display: block;
+    /* float: left; */
+}
+.author-list.leader-reader_left .author-list_title {
+    box-sizing: border-box;
+    display: block;
+    /* float: left; */
+}
 /* 領讀人左區右半部 */
 .leader-reader_right {
     max-width: 403px;
@@ -182,6 +196,40 @@ a {
     box-sizing: border-box;
     position: relative;
     /* 高度還沒對齊 */
-    top: -365px;
     left: 33%;
+}
+/*  */
+/* 評論 */
+/*  */
+.comment {
+    width: 100%;
+}
+.comment-content {
+    width: 100%;
+    display: flex;
+}
+.comment .comment-content .author-list {
+    border: 1px solid #9E9E9E;
+    width: 25%;
+    /* float: left; */
+}
+.author-list_image {
+    width: 33%;
+    float: left;
+}
+.author-list_wrapper {
+    box-sizing: border-box;
+    width: 67%;
+    display: flex;
+    float: left;
+}
+.author-list_info {
+    box-sizing: border-box;
+    display: block;
+    float: left;
+}
+.author-list_title {
+    box-sizing: border-box;
+    display: block;
+    float: left;
 }
