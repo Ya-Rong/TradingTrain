@@ -97,8 +97,6 @@ a {
     line-height: 30px;
     width: 100%;
     margin-top: 16px;
-    /* display: flex;
-    position: relative; */
 }
 /* 左側 */
 .story-list_news.section-news_left {
@@ -112,7 +110,7 @@ a {
 }
 /* 主題小標 */
 .story-list_news.section-news_left .story-list_sub {
-    position: relative;
+    display: flex;
 }
 /* 文章標題 */
 .story-list_news.section-news_left .story-list_subtitle {
@@ -133,7 +131,7 @@ a {
 }
 /* 主題小標 */
 .story-list_news.section-news_right .story-list_sub {
-    position: relative;
+    display: flex;
 }
 /* 文章標題 */
 .story-list_news.section-news_right .story-list_subtitle {
