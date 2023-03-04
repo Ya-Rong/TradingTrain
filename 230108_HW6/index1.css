@@ -1,3 +1,6 @@
+html {
+    line-height: 1.15;
+}
 /* 圖解新聞 */
 .graphic-news {
     border: 1px solid black;
@@ -6,24 +9,27 @@
     height: 100%;
     margin-top: 40px;
     position: relative;
-    text-align: center;
+    /* text-align: center; */
+    display: block;
 }
 /* 標題區塊 */
-.context-box_header {
+.graphic-news .context-box_header {
     border: 1px solid gray;
     align-items: center;
     box-sizing: border-box;
     display: flex;
+    width: 100%;
     font-size: 16px;
     height: 39px;
     line-height: 18.4px;
     margin: 40px 0px 24px 0px;
 }
 /* 標題字 */
-.context-box_title {
+.graphic-news .context-box_title {
     box-sizing: border-box;
     color: rgb(158, 158, 158);
     display: block;
+    text-align: center;
     font-size: 30px;
     height: 39px;
     line-height: 30px;
@@ -35,9 +41,9 @@
     box-sizing: border-box;
     display: flex;
     font-size: 16px;
-    height: 310px;
+    /* height: 310px; */
     line-height: 18.4px;
-    margin-bottom: 42px;
+    /* margin-bottom: 42px; */
     position: relative;
 }
 /* 圖片 */
@@ -52,10 +58,9 @@
 }
 /* 文章標題字 */
 .story-list_title {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     box-sizing: border-box;
 }
-/* 文章內容字 */
 a {
     box-sizing: border-box;
     background-color: transparent;
@@ -73,14 +78,38 @@ a {
     /* margin-top: 40px; */
     text-align: center;
     position: relative;
-    /* 還沒水平對齊 */
-    top: -456px;
-    left: 70%;
+    float: left;
+    box-sizing: border-box;
+    /* left: 70%; */
 }
+.newspaper-news_wrapper {
+    box-sizing: border-box;
+    width: 100%;
+    display: block;
+    position: relative;
+}
+/* .context-box_header */
+.context-box_title {
+    box-sizing: border-box;
+    color: rgb(158, 158, 158);
+    display: block;
+    font-size: 30px;
+    height: 39px;
+    line-height: 30px;
+    margin: 0px;
+    position: relative;
+}
+/* .newspaper-news_image */
+
 /*  */
 /* 國際 財經 */
 /*  */
-/* 國際財經標題字 */
+.section-news {
+    display: block;
+    box-sizing: border-box;
+    margin-top: 40px;
+}
+/* .context-box_header */
 .section-news .context-box_header .context-box_title a {
     color: #9E9E9E;
     line-height: 39px;
@@ -91,13 +120,6 @@ a {
     margin-bottom: 48px;
     box-sizing: border-box;
 }
-/* 世界鏡頭 文章標題 */
-.story-list_text .story-list_title {
-    font-size: 20px;
-    line-height: 30px;
-    width: 100%;
-    margin-top: 16px;
-}
 /* 左側 */
 .story-list_news.section-news_left {
     width: 75%;
@@ -107,6 +129,13 @@ a {
 }
 .section-news .section-news_wrapper .story-list_text {
     float: left;
+}
+/* 世界鏡頭 文章標題 */
+.story-list_text .story-list_title {
+    font-size: 20px;
+    line-height: 30px;
+    width: 100%;
+    margin-top: 16px;
 }
 /* 主題小標 */
 .story-list_news.section-news_left .story-list_sub {
@@ -129,16 +158,14 @@ a {
 .story-list_news.section-news_right .section-news .story-list_image {
     width: 100%;
 }
+/* .story-list_text
+.story-list_title */
 /* 主題小標 */
 .story-list_news.section-news_right .story-list_sub {
     display: flex;
 }
 /* 文章標題 */
 .story-list_news.section-news_right .story-list_subtitle {
-    position: relative;
-}
-/* 文章內容 */
-.story-list_subtext {
     position: relative;
 }
 /*  */
@@ -151,10 +178,11 @@ a {
 }
 /* 領讀人標題字 */
 .leader-reader .context-box_header {
-    margin-top: 56px;
-    margin-bottom: 25px;
+    /* margin-top: 56px; */
+    /* margin-bottom: 25px; */
     display: flex;
 }
+/* .context-box_title */
 .leader-reader_wrapper {
     margin-bottom: 40px;
     position: relative;
@@ -196,6 +224,8 @@ a {
     box-sizing: border-box;
     display: block;
 }
+/* .author-list_name */
+/* .author-list_position */
 .author-list.leader-reader_left .author-list_title {
     box-sizing: border-box;
     display: block;
@@ -210,6 +240,11 @@ a {
     /* 高度還沒對齊 */
     left: 33%;
 }
+/* .story-list_news.leader-reader_sub */
+/* .leader-reader_right .story-list_image */
+/* .leader-reader_right .story-list_text */
+/* .leader-reader_right .story-list_title */
+/* .leader-reader_right .story-list_sub */
 /*  */
 /* 評論 */
 /*  */
@@ -242,3 +277,228 @@ a {
     display: block;
     float: left;
 }
+/*  */
+/* 聯合副刊 | 閱讀 */
+/*  */
+.supplement-content {
+    padding-bottom: 46px;
+    padding-top: 46px;
+    box-sizing: border-box;
+    display: block;
+    background-color: #cb2528;
+}
+.container {
+    margin: 0 auto;
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+}
+.context-box_header {
+    align-items: center;
+    display: flex;
+    margin-bottom: 25px;
+    box-sizing: border-box;
+}
+.supplement-content .context-box_header .context-box_title {
+    display: inline-block;
+    margin: 0;
+    box-sizing: border-box;
+
+    color: #fff;
+    font-size: 30px;
+    line-height: 39px;
+    padding-left: 0;
+}
+.supplement-content_wrapper {
+    display: flex;
+    /* height: 375px; */
+    justify-content:center;
+    box-sizing: border-box;
+}
+.supplement-content_left {
+    align-items: center;
+    background-color: #fff;
+    height: 100%;
+    justify-content: center;
+    /* max-width: 785px; */
+    width: 100%;
+    box-sizing: border-box;
+}
+/* 正文內容 */
+.supplement-content_description {
+    /* max-width: 665px; */
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+}
+.supplement-content_text {
+    color: #232323;
+    font-size: 18px;
+    line-height: 27px;
+    margin-top: 0;
+    margin-bottom: 0;
+    box-sizing: border-box;
+}
+.supplement-content_title {
+    color: #9E9E9E;
+    font-size: 32px;
+    line-height: 41.6px;
+    margin-bottom: 0;
+    margin-top: 24px;
+    box-sizing: border-box;
+    display: block;
+}
+.supplement-content_image {
+    bottom: 23px;
+    margin: 0 auto;
+    position: relative;
+}
+/*  */
+/* 軍武科技 發燒話題 */
+/*  */
+.secondary-content {
+    box-sizing: border-box;
+    display: block;
+    /* margin-top: 72px; */
+}
+.container {
+    margin: 0 auto;
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+}
+.technology-content {
+    width: 100%;
+    display: flex;
+}
+.context-box_header {
+    width: 20%;
+}
+.context-box_title
+.technology-content_list {
+    display: flex;
+    box-sizing: border-box;
+}
+.story-list__news {
+    border: 1px solid red;
+    /* margin-left: 24px; */
+    /* width: 519px; */
+    width: 40%;
+    display: flex;
+    /* position: relative; */
+    box-sizing: border-box;
+}
+.story-list_image {
+    display: block;
+}
+.story-list__text {
+    display: flex;
+}
+.story-list__title {
+    display: block;
+    margin: 24px 0;
+    box-sizing: border-box;
+}
+/*  */
+/* 最新文章 */
+/*  */
+.section-newest {
+    background-color: #f5f5f5;
+    padding-bottom: 40px;
+    box-sizing: border-box;
+    display: block;
+}
+.section-newest .container {
+    width: 100%;
+    display: block;
+}
+.context-box_header {
+    padding-top: 64px;
+    align-items: center;
+    display: flex;
+    box-sizing: border-box;
+}
+/* 更多文章 */
+/* .context-box_title */
+/* .context-box_link */
+/* .context-box_more */
+.storys {
+    display: flex;
+    flex-wrap: wrap;
+}
+.section-newest .storys .story-list_news {
+    display: flex;
+    width: 50%;
+    box-sizing: border-box;
+    /* display: table-cell;
+    vertical-align: middle; */
+}
+.section-newest .storys .story-list_image {
+    display: block;
+    margin: auto;
+}
+.section-newest .storys .story-list_text {
+    display: inline-block;
+}
+.section-newest .storys .story-list_title {
+    display: block;
+    box-sizing: border-box;
+}
+/*  */
+/* 聯合開POD */
+/*  */
+.pod-content {
+    display: block;
+}
+.container.pod-content_wrapper {
+    width: 100%;
+    display: block;
+}
+.context-box_header {
+    display: block;
+}
+.context-box_title {
+    display: block;
+}
+.pod-content_item {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 300px;
+}
+.pod-content_item .story-list_news {
+    display: block;
+    box-sizing: border-box;
+    width: 25%;
+    text-align: center;
+}
+/* .pod-content_item .story-list_news .story-list_image {
+    margin: auto;
+} */
+.pod-content_item .story-list_news .story-list_text {
+    display: block;
+}
+/* .pod-content_item .story-list_news .story-list_title  */
+
+/*  */
+/* 頁尾 */
+/*  */
+.footer {
+    background-color: #cb2528;
+    box-sizing: border-box;
+    display: block;
+    margin-top: 10%;
+}
+.footer-social {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+/* .btn.btn-social */
+.footer-note {
+    text-align: center;
+    box-sizing: border-box;
+    display: block;
+}
+/* .footer-note_link */
+/* .footer-word */
