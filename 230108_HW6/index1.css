@@ -105,11 +105,16 @@ a {
 /* 國際 財經 */
 /*  */
 .section-news {
-    display: block;
     box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
     margin-top: 40px;
 }
-/* .context-box_header */
+.section-news .context-box_header {
+    display: block;
+    width: 100%;
+}
 .section-news .context-box_header .context-box_title a {
     color: #9E9E9E;
     line-height: 39px;
@@ -117,18 +122,24 @@ a {
 /* 國際 財經 區塊 */
 .section-news_wrapper {
     display: flex;
-    margin-bottom: 48px;
     box-sizing: border-box;
+    margin-top: 100px;
+    margin-bottom: 48px;
 }
-/* 左側 */
+/* 國際 左側 */
 .story-list_news.section-news_left {
     width: 75%;
 }
 .story-list_news.section-news_left .section-news .story-list_image {
-    width: 55%;
+    width: 100%;
+    display: block;
+    margin: auto;
 }
-.section-news .section-news_wrapper .story-list_text {
+.section-news .section-news_wrapper .story-list_news.section-news_left .story-list_text {
     float: left;
+    display: block;
+    /* display: table-cell;
+    vertical-align: middle; */
 }
 /* 世界鏡頭 文章標題 */
 .story-list_text .story-list_title {
@@ -152,11 +163,15 @@ a {
 /* 右側 */
 .story-list_news.section-news_right {
     width: 25%;
-    position: relative;
+    /* position: relative; */
     display: flex;
+    flex-wrap: wrap;
 }
-.story-list_news.section-news_right .section-news .story-list_image {
+.story-list_news.section-news_right .story-list_image {
     width: 100%;
+    display: block;
+    text-align: center;
+    margin: auto;
 }
 /* .story-list_text
 .story-list_title */
@@ -234,14 +249,15 @@ a {
 /* 領讀人左區右半部 */
 .leader-reader_right {
     max-width: 403px;
-    width: 75%;
+    width: 100%;
     box-sizing: border-box;
     position: relative;
-    /* 高度還沒對齊 */
-    left: 33%;
 }
 /* .story-list_news.leader-reader_sub */
-/* .leader-reader_right .story-list_image */
+.leader-reader_right .story-list_image {
+    display: block;
+    width: 100%;
+}
 /* .leader-reader_right .story-list_text */
 /* .leader-reader_right .story-list_title */
 /* .leader-reader_right .story-list_sub */
@@ -287,23 +303,19 @@ a {
     display: block;
     background-color: #cb2528;
 }
-.container {
+.supplement-content .container {
     margin: 0 auto;
     width: 100%;
     box-sizing: border-box;
     display: block;
 }
-.context-box_header {
+.supplement-content .context-box_header {
     align-items: center;
-    display: flex;
+    display: block;
     margin-bottom: 25px;
     box-sizing: border-box;
 }
 .supplement-content .context-box_header .context-box_title {
-    display: inline-block;
-    margin: 0;
-    box-sizing: border-box;
-
     color: #fff;
     font-size: 30px;
     line-height: 39px;
@@ -311,7 +323,7 @@ a {
 }
 .supplement-content_wrapper {
     display: flex;
-    /* height: 375px; */
+    /* flex-wrap: wrap; */
     justify-content:center;
     box-sizing: border-box;
 }
@@ -348,21 +360,25 @@ a {
     box-sizing: border-box;
     display: block;
 }
+/* 右側圖片 */
 .supplement-content_image {
     bottom: 23px;
     margin: 0 auto;
     position: relative;
 }
+
 /*  */
-/* 軍武科技 發燒話題 */
+/* 軍武科技 */
 /*  */
 .secondary-content {
     box-sizing: border-box;
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
     /* margin-top: 72px; */
 }
-.container {
-    margin: 0 auto;
+.secondary-content .container {
+    /* margin: 0 auto; */
     width: 100%;
     box-sizing: border-box;
     display: block;
@@ -370,31 +386,72 @@ a {
 .technology-content {
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
 }
-.context-box_header {
-    width: 20%;
-}
-.context-box_title
-.technology-content_list {
-    display: flex;
-    box-sizing: border-box;
-}
-.story-list__news {
-    border: 1px solid red;
-    /* margin-left: 24px; */
-    /* width: 519px; */
-    width: 40%;
-    display: flex;
-    /* position: relative; */
-    box-sizing: border-box;
-}
-.story-list_image {
+.technology-content .context-box_header {
+    width: 15%;
     display: block;
 }
-.story-list__text {
+/* .technology-content .context-box_title */
+.technology-content_list {
+    box-sizing: border-box;
     display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
 }
-.story-list__title {
+.technology-content .story-list__news {
+    border: 1px solid red;
+    width: 40%;
+    display: block;
+    box-sizing: border-box;
+    text-align: center;
+}
+.technology-content .story-list_image {
+    display: block;
+    margin: auto;
+}
+.technology-content .story-list__text {
+    display: block;
+}
+.technology-content .story-list__title {
+    display: block;
+    margin: 24px 0;
+    box-sizing: border-box;
+}
+/*  */
+/* 發燒話題 */
+/*  */
+.life-content {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.life-content .context-box_header {
+    width: 15%;
+    display: block;
+}
+/* .life-content .context-box_title */
+.life-content_list {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.life-content .life-content_list .story-list_news {
+    border: 1px solid red;
+    width: 40%;
+    display: block;
+    box-sizing: border-box;
+    text-align: center;
+}
+.life-content .life-content_list .story-list_image {
+    display: block;
+    margin: auto;
+}
+.life-content .life-content_list .story-list__text {
+    display: block;
+}
+.life-content .life-content_list .story-list__title {
     display: block;
     margin: 24px 0;
     box-sizing: border-box;
