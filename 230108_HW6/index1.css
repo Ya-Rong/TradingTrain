@@ -75,12 +75,12 @@ a {
     background-color: rgb(245, 245, 245);
     width: 30%;
     height: 100%;
+    display: block;
     /* margin-top: 40px; */
     text-align: center;
     position: relative;
     float: left;
     box-sizing: border-box;
-    /* left: 70%; */
 }
 .newspaper-news_wrapper {
     box-sizing: border-box;
@@ -274,14 +274,15 @@ a {
 .comment .comment-content .author-list {
     border: 1px solid #9E9E9E;
     width: 25%;
-    /* float: left; */
+    display: flex;
 }
 .author-list_image {
-    width: 100%;
+    display: block;
+    width: 30%;
 }
 .author-list_wrapper {
     box-sizing: border-box;
-    width: 67%;
+    display: block;
 }
 .author-list_info {
     box-sizing: border-box;
@@ -311,9 +312,9 @@ a {
 }
 .supplement-content .context-box_header {
     align-items: center;
-    display: block;
-    margin-bottom: 25px;
+    display: flex;
     box-sizing: border-box;
+    margin-bottom: 25px;
 }
 .supplement-content .context-box_header .context-box_title {
     color: #fff;
