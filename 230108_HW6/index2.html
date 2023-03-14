@@ -3,7 +3,7 @@
 
 <head>
     <!-- <link rel="stylesheet" href="./css/index2.css"> -->
-    <link rel="stylesheet" href="./css/index2_1main.css">
+    <link rel="stylesheet" href="./css/index2_1todaynews.css">
     <link rel="stylesheet" href="./css/index2_2comment.css">
     <link rel="stylesheet" href="./css/index2_3secondary-content.css">
     <link rel="stylesheet" href="./css/index2_4footer.css">
@@ -23,13 +23,45 @@
         <section class="main">
             <!-- 聯合報 訂閱 -->
             <header class="header">
-                <div class="logo-wrapper">
-                    <a class="logo"></a>
+                <div class="container">
+                    <div class="logo-wrapper">
+                        <a class="logo">
+                            <img
+                                src="data:image/png;base64,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">
+                        </a>
+                    </div>
+                    <!-- 選單 -->
+                    <div class="menu">
+                        <span class="nav-menu"></span>
+                        <nav class="navigation">
+                            <div class="splide_track">
+                                <span class="splide01">2024起跑</span>
+                                <span class="splide02">政治</span>
+                                <span class="splide03">國際</span>
+                                <span class="splide04">財經</span>
+                                <span class="splide05">教育</span>
+                                <span class="splide06">軍武</span>
+                                <span class="splide07">生活</span>
+                                <span class="splide08">評論</span>
+                                <span class="splide09">聽幕後</span>
+                                <span class="splide10">報紙</span>
+                                <span class="splide11">專題</span>
+                                <span class="splide12">開放編輯室</span>
+                            </div>
+                        </nav>
+                    </div>
+                    <!-- 訂閱 -->
+                    <section class="tools-box">
+                        <div class="tools-box_holder">
+                            <a class="subscriptioin">
+                                <span class="tools-box_text">訂閱</span>
+                            </a>
+                            <span class="tools-box_item">
+                                <img src="https://cdn-icons-png.flaticon.com/128/4905/4905936.png">
+                            </span>
+                        </div>
+                    </section>
                 </div>
-                <!-- 選單 -->
-                <div class="menu"></div>
-                <!-- 訂閱 -->
-                <section class="tools-box"></section>
             </header>
             <!-- 大圖-->
             <div class="list-news">
@@ -38,20 +70,51 @@
                         <div class="story-list_image">
                             <img src="https://i.ytimg.com/vi/M04T_2Uoc_k/maxresdefault.jpg">
                         </div>
-                        <div class="story-list_text"></div>
+                        <div class="story-list_text">
+                            <h2 class="story-list_title">
+                                <a>文章標題文章標題文章標題文章標題文章標題文章標題文章標題文章標題</a>
+                            </h2>
+                        </div>
                     </div>
-                    <div class="story-list_news"></div>
-                    <div class="story-list_news"></div>
-                    <div class="story-list_news"></div>
+                    <div class="story-list_news">
+                        <h2 class="story-list_title">
+                            <a>文章標題文章標題文章標題文章標題</a>
+                        </h2>
+                    </div>
+                    <div class="story-list_news">
+                        <h2 class="story-list_title">
+                            <a>文章標題文章標題文章標題文章標題</a>
+                        </h2>
+                    </div>
+                    <div class="story-list_news">
+                        <h2 class="story-list_title">
+                            <a>文章標題文章標題文章標題文章標題</a>
+                        </h2>
+                    </div>
                 </div>
                 <div class="list-news_mid">
                     <div class="list-news_center">
-                        <!-- <div class="story-list_news"></div> -->
+                        <div class="story-list_news">
+                            <div class="story-list_image">
+                                <img
+                                    src="https://www.peanuts.com/sites/default/files/sis1_websiteslider_1680x840_postlaunch_v2_new.jpg">
+                            </div>
+                            <div class="story-list_text">
+                                <h2 class="story-list_title">
+                                    <!-- <a>文章標題文章標題文章標題文章標題文章標題文章標題</a> -->
+                                </h2>
+                            </div>
+                        </div>
                     </div>
                     <div class="list-news_last">
                         <div class="story-list_news">
-                            <div class="story-list_image"></div>
-                            <div class="story-list_text"></div>
+                            <div class="story-list_image">
+                                <img src="https://i.ytimg.com/vi/ehIIXOS9tq4/maxresdefault.jpg">
+                            </div>
+                            <div class="story-list_text">
+                                <h2 class="story-list_title">文章標題文章標題文章標題文章標題</h2>
+                                <p>文章內容文章內容文章內容文章內容文章內容</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -64,8 +127,16 @@
                             </header>
                             <div class="story-list_holder">
                                 <div class="author-list">
-                                    <div class="author-list_image"></div>
-                                    <div class="author-list_wrapper"></div>
+                                    <div class="author-list_image">
+                                        <img src="https://www.peanuts.com/sites/default/files/cb-color.jpg">
+                                    </div>
+                                    <div class="author-list_wrapper">
+                                        <a class="author-list_info">
+                                            <span class="author-list_name">姓名</span>
+                                            <span class="author-list_position">職位</span>
+                                        </a>
+                                        <h2 class="author-list_title">文章標題文章標題文章標題文章標題</h2>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -76,10 +147,21 @@
                             <h3 class="context-box_title">精選推薦</h3>
                         </header>
                         <div class="story-list_holder">
-                            <div class="story-list_news"></div>
-                            <div class="story-list_news"></div>
-                            <div class="story-list_news"></div>
-                            <div class="story-list_news"></div>
+                            <div class="story-list_news">
+                                <div class="story-list_image"></div>
+                                <div class="story-list_text">
+                                    <div class="story-list_title">文章標題文章標題文章標題文章標題文章標題文章標題</div>
+                                </div>
+                            </div>
+                            <div class="story-list_news">
+                                <div class="story-list_title">文章標題文章標題文章標題文章標題文章標題文章標題</div>
+                            </div>
+                            <div class="story-list_news">
+                                <div class="story-list_title">文章標題文章標題文章標題文章標題文章標題文章標題</div>
+                            </div>
+                            <div class="story-list_news">
+                                <div class="story-list_title">文章標題文章標題文章標題文章標題文章標題文章標題</div>
+                            </div>
                         </div>
                     </section>
                 </div>
@@ -94,7 +176,8 @@
                     <div class="story-list_news">
                         <div class="story-list_image">
                             <a href="https://vip.udn.com/vip/story/122664/6974139?from=vipudn_chart_index">
-                                <img src="https://pgw.udn.com.tw/gw/photo.php?u=https://uc.udn.com.tw/photo/2023/02/15/1/20202037.png&x=&y=&sw=&sh=&exp=3600&w=640&nt=1">
+                                <img
+                                    src="https://pgw.udn.com.tw/gw/photo.php?u=https://uc.udn.com.tw/photo/2023/02/15/1/20202037.png&x=&y=&sw=&sh=&exp=3600&w=640&nt=1">
                             </a>
                         </div>
                         <div class="story-list_text">
@@ -110,7 +193,8 @@
                             <h3 class="context-box_title">今日報紙</h3>
                         </header>
                         <div class="newspaper-news_image">
-                            <img src="https://pgw.udn.com.tw/gw/photo.php?u=https://uc.udn.com.tw/fullpage/1/2023/02/16/20230215235408836.jpg&x=&y=&sw=&sh=&exp=3600&pr=15">
+                            <img
+                                src="https://pgw.udn.com.tw/gw/photo.php?u=https://uc.udn.com.tw/fullpage/1/2023/02/16/20230215235408836.jpg&x=&y=&sw=&sh=&exp=3600&pr=15">
                         </div>
                     </div>
                 </section>
@@ -122,24 +206,57 @@
                 </header>
                 <div class="section-news_wrapper">
                     <div class="section-news_left">
-                        <div class="story-list_image"></div>
-                        <div class="story-list_text"></div>
+                        <div class="story-list_image">
+                            <img src="https://ichef.bbci.co.uk/images/ic/1920x1080/p03ch8gv.jpg">
+                        </div>
+                        <div class="story-list_text">
+                            <h2 class="story-list_title">
+                                <a class="story-list_sub">新聞小標</a>
+                                <a>文章標題文章標題文章標題文章標題文章標題文章標題</a>
+                            </h2>
+                            <p>文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容</p>
+                        </div>
                     </div>
                     <div class="section-news_right">
-                        <div class="story-list_image"></div>
-                        <div class="story-list_text"></div>
+                        <div class="story-list_image">
+                            <img
+                                src="https://www.peanuts.com/sites/default/files/peanuts_homepagebanner_alternateyellow_version7.jpg">
+                        </div>
+                        <div class="story-list_text">
+                            <h2 class="story-list_title">
+                                <a class="story-list_sub">新聞小標</a>
+                                <a>文章標題文章標題文章標題文章標題</a>
+                            </h2>
+                        </div>
                     </div>
                 </div>
                 <header class="context-box_header">
-                    <h3 class="context-box_title">財經</h3></header>
+                    <h3 class="context-box_title">財經</h3>
+                </header>
                 <div class="section-news_wrapper">
                     <div class="section-news_left">
-                        <div class="story-list_image"></div>
-                        <div class="story-list_text"></div>
+                        <div class="story-list_image">
+                            <img src="https://ichef.bbci.co.uk/images/ic/1920x1080/p03ch8gv.jpg">
+                        </div>
+                        <div class="story-list_text">
+                            <h2 class="story-list_title">
+                                <a class="story-list_sub">新聞小標</a>
+                                <a>文章標題文章標題文章標題文章標題文章標題文章標題</a>
+                            </h2>
+                            <p>文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容</p>
+                        </div>
                     </div>
                     <div class="section-news_right">
-                        <div class="story-list_image"></div>
-                        <div class="story-list_text"></div>
+                        <div class="story-list_image">
+                            <img
+                                src="https://www.peanuts.com/sites/default/files/peanuts_homepagebanner_alternateyellow_version7.jpg">
+                        </div>
+                        <div class="story-list_text">
+                            <h2 class="story-list_title">
+                                <a class="story-list_sub">新聞小標</a>
+                                <a>文章標題文章標題文章標題文章標題</a>
+                            </h2>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -152,33 +269,81 @@
                     <div class="splide_list">
                         <div class="leader-reader_box">
                             <div class="author-list">
-                                <div class="author-list_image"></div>
-                                <div class="author-list_wrapper"></div>
+                                <div class="author-list_image">
+                                    <img src="https://www.peanuts.com/sites/default/files/cb-color.jpg">
+                                </div>
+                                <div class="author-list_wrapper">
+                                    <a class="author-list_info">
+                                        <span class="author-list_name">姓名</span>
+                                        <span class="author-list_position">職位</span>
+                                    </a>
+                                    <h2 class="author-list_title">
+                                        <span>文章標題文章標題文章標題文章標題</span>
+                                    </h2>
+                                </div>
                             </div>
                             <div class="leader-reader_right">
                                 <div class="story-list_news">
-                                    <div class="story-list_image"></div>
-                                    <div class="story-list_text"></div>
+                                    <div class="story-list_image">
+                                        <img src="https://i.ytimg.com/vi/ehIIXOS9tq4/maxresdefault.jpg">
+                                    </div>
+                                    <div class="story-list_text">
+                                        <h2 class="story-list_title">
+                                            <a class="story-list_sub">新聞小標</a>
+                                            <a>文章標題文章標題文章標題文章標題</a>
+                                        </h2>
+                                    </div>
                                 </div>
                                 <div class="story-list_news">
-                                    <div class="story-list_image"></div>
-                                    <div class="story-list_text"></div>
+                                    <div class="story-list_image">
+                                        <img src="https://i.ytimg.com/vi/ehIIXOS9tq4/maxresdefault.jpg">
+                                    </div>
+                                    <div class="story-list_text">
+                                        <h2 class="story-list_title">
+                                            <a class="story-list_sub">新聞小標</a>
+                                            <a>文章標題文章標題文章標題文章標題</a>
+                                        </h2>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <div class="leader-reader_box">
                             <div class="author-list">
-                                <div class="author-list_image"></div>
-                                <div class="author-list_wrapper"></div>
+                                <div class="author-list_image">
+                                    <img src="https://www.peanuts.com/sites/default/files/cb-color.jpg">
+                                </div>
+                                <div class="author-list_wrapper">
+                                    <a class="author-list_info">
+                                        <span class="author-list_name">姓名</span>
+                                        <span class="author-list_position">職位</span>
+                                    </a>
+                                    <h2 class="author-list_title">
+                                        <span>文章標題文章標題文章標題文章標題</span>
+                                    </h2>
+                                </div>
                             </div>
                             <div class="leader-reader_right">
                                 <div class="story-list_news">
-                                    <div class="story-list_image"></div>
-                                    <div class="story-list_text"></div>
+                                    <div class="story-list_image">
+                                        <img src="https://i.ytimg.com/vi/ehIIXOS9tq4/maxresdefault.jpg">
+                                    </div>
+                                    <div class="story-list_text">
+                                        <h2 class="story-list_title">
+                                            <a class="story-list_sub">新聞小標</a>
+                                            <a>文章標題文章標題文章標題文章標題</a>
+                                        </h2>
+                                    </div>
                                 </div>
                                 <div class="story-list_news">
-                                    <div class="story-list_image"></div>
-                                    <div class="story-list_text"></div>
+                                    <div class="story-list_image">
+                                        <img src="https://i.ytimg.com/vi/ehIIXOS9tq4/maxresdefault.jpg">
+                                    </div>
+                                    <div class="story-list_text">
+                                        <h2 class="story-list_title">
+                                            <a class="story-list_sub">新聞小標</a>
+                                            <a>文章標題文章標題文章標題文章標題</a>
+                                        </h2>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -192,31 +357,59 @@
                 </header>
                 <div class="comment_content">
                     <div class="author-list">
-                        <div class="author-list_image"></div>
+                        <div class="author-list_image">
+                            <img src="https://www.peanuts.com/sites/default/files/cb-color.jpg">
+                        </div>
                         <div class="author-list_wrapper">
-                            <!-- <div class="author-list_info"></div>
-                            <h2 class="author-list_title"></h2> -->
+                            <div class="author-list_info">
+                                <span class="author-list_name">姓名</span>
+                                <span class="author-list_position">職位</span>
+                            </div>
+                            <h2 class="author-list_title">
+                                <a>文章標題文章標題文章標題文章標題</a>
+                            </h2>
                         </div>
                     </div>
                     <div class="author-list">
-                        <div class="author-list_image"></div>
+                        <div class="author-list_image">
+                            <img src="https://www.peanuts.com/sites/default/files/cb-color.jpg">
+                        </div>
                         <div class="author-list_wrapper">
-                            <!-- <div class="author-list_info"></div>
-                            <h2 class="author-list_title"></h2> -->
+                            <div class="author-list_info">
+                                <span class="author-list_name">姓名</span>
+                                <span class="author-list_position">職位</span>
+                            </div>
+                            <h2 class="author-list_title">
+                                <a>文章標題文章標題文章標題文章標題</a>
+                            </h2>
                         </div>
                     </div>
                     <div class="author-list">
-                        <div class="author-list_image"></div>
+                        <div class="author-list_image">
+                            <img src="https://www.peanuts.com/sites/default/files/cb-color.jpg">
+                        </div>
                         <div class="author-list_wrapper">
-                            <!-- <div class="author-list_info"></div>
-                            <h2 class="author-list_title"></h2> -->
+                            <div class="author-list_info">
+                                <span class="author-list_name">姓名</span>
+                                <span class="author-list_position">職位</span>
+                            </div>
+                            <h2 class="author-list_title">
+                                <a>文章標題文章標題文章標題文章標題</a>
+                            </h2>
                         </div>
                     </div>
                     <div class="author-list">
-                        <div class="author-list_image"></div>
+                        <div class="author-list_image">
+                            <img src="https://www.peanuts.com/sites/default/files/cb-color.jpg">
+                        </div>
                         <div class="author-list_wrapper">
-                            <!-- <div class="author-list_info"></div>
-                            <h2 class="author-list_title"></h2> -->
+                            <div class="author-list_info">
+                                <span class="author-list_name">姓名</span>
+                                <span class="author-list_position">職位</span>
+                            </div>
+                            <h2 class="author-list_title">
+                                <a>文章標題文章標題文章標題文章標題</a>
+                            </h2>
                         </div>
                     </div>
                 </div>
@@ -229,8 +422,17 @@
                     <h3 class="context-box_title">聯合副刊 | 閱讀</h3>
                 </header>
                 <div class="supplement-content_wrapper">
-                    <div class="supplement-content_left"></div>
-                    <div class="supplement-content_image"></div>
+                    <div class="supplement-content_left">
+                        <div class="supplement-content_description">
+                            <p class="supplement-content_text">
+                                文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容</p>
+                            <h2 class="supplement-content_title">文章標題文章標題文章標題文章標題</h2>
+                        </div>
+                    </div>
+                    <div class="supplement-content_image">
+                        <img
+                            src="https://pgw.udn.com.tw/gw/photo.php?u=https://uc.udn.com.tw/photo/2023/01/17/realtime/20009912.jpg&s=Y&x=0&y=260&sw=2332&sh=1555&exp=3600&w=960&nt=1">
+                    </div>
                 </div>
             </div>
         </section>
@@ -243,12 +445,32 @@
                     </header>
                     <div class="technology-content_list">
                         <div class="story-list_news">
-                            <div class="story-list_image"></div>
-                            <div class="story-list_text"></div>
+                            <div class="story-list_image">
+                                <img
+                                    src="data:image/jpeg;base64,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">
+                            </div>
+                            <div class="story-list_text">
+                                <h2 class="story-list_title">
+                                    <a>文章標題文章標題文章標題文章標題</a>
+                                </h2>
+                                <p>
+                                    <a>文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容</a>
+                                </p>
+                            </div>
                         </div>
                         <div class="story-list_news">
-                            <div class="story-list_image"></div>
-                            <div class="story-list_text"></div>
+                            <div class="story-list_image">
+                                <img
+                                    src="data:image/jpeg;base64,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">
+                            </div>
+                            <div class="story-list_text">
+                                <h2 class="story-list_title">
+                                    <a>文章標題文章標題文章標題文章標題</a>
+                                </h2>
+                                <p>
+                                    <a>文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容</a>
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </section>
@@ -258,12 +480,32 @@
                     </header>
                     <div class="life-content_list">
                         <div class="story-list_news">
-                            <div class="story-list_image"></div>
-                            <div class="story-list_text"></div>
+                            <div class="story-list_image">
+                                <img
+                                    src="data:image/jpeg;base64,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">
+                            </div>
+                            <div class="story-list_text">
+                                <h2 class="story-list_title">
+                                    <a>文章標題文章標題文章標題文章標題</a>
+                                </h2>
+                                <p>
+                                    <a>文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容</a>
+                                </p>
+                            </div>
                         </div>
                         <div class="story-list_news">
-                            <div class="story-list_image"></div>
-                            <div class="story-list_text"></div>
+                            <div class="story-list_image">
+                                <img
+                                    src="data:image/jpeg;base64,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">
+                            </div>
+                            <div class="story-list_text">
+                                <h2 class="story-list_title">
+                                    <a>文章標題文章標題文章標題文章標題</a>
+                                </h2>
+                                <p>
+                                    <a>文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容</a>
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </section>
@@ -277,47 +519,94 @@
                 </header>
                 <div class="story-list">
                     <div class="story-list_news">
-                        <div class="story-list_image"></div>
+                        <div class="story-list_image">
+                            <img src="https://www.computerdiy.com.tw/wp-content/uploads/20201210131119_73-scaled.jpeg">
+                        </div>
                         <div class="story-list_text">
-                            <!-- <h2 class="story-list_title"></h2>
-                            <p></p> -->
+                            <h2 class="story-list_title">文章標題文章標題文章標題文章標題</h2>
+                            <p>文章內容文章內容文章內容文章內容文章內容</p>
                         </div>
                     </div>
                     <div class="story-list_news">
-                        <div class="story-list_image"></div>
-                        <div class="story-list_text"></div>
+                        <div class="story-list_image">
+                            <img src="https://www.computerdiy.com.tw/wp-content/uploads/20201210131119_73-scaled.jpeg">
+                        </div>
+                        <div class="story-list_text">
+                            <h2 class="story-list_title">文章標題文章標題文章標題文章標題</h2>
+                            <p>文章內容文章內容文章內容文章內容文章內容</p>
+                        </div>
                     </div>
                     <div class="story-list_news">
-                        <div class="story-list_image"></div>
-                        <div class="story-list_text"></div>
+                        <div class="story-list_image">
+                            <img src="https://www.computerdiy.com.tw/wp-content/uploads/20201210131119_73-scaled.jpeg">
+                        </div>
+                        <div class="story-list_text">
+                            <h2 class="story-list_title">文章標題文章標題文章標題文章標題</h2>
+                            <p>文章內容文章內容文章內容文章內容文章內容</p>
+                        </div>
                     </div>
                     <div class="story-list_news">
-                        <div class="story-list_image"></div>
-                        <div class="story-list_text"></div>
+                        <div class="story-list_image">
+                            <img src="https://www.computerdiy.com.tw/wp-content/uploads/20201210131119_73-scaled.jpeg">
+                        </div>
+                        <div class="story-list_text">
+                            <h2 class="story-list_title">文章標題文章標題文章標題文章標題</h2>
+                            <p>文章內容文章內容文章內容文章內容文章內容</p>
+                        </div>
                     </div>
                     <div class="story-list_news">
-                        <div class="story-list_image"></div>
-                        <div class="story-list_text"></div>
+                        <div class="story-list_image">
+                            <img src="https://www.computerdiy.com.tw/wp-content/uploads/20201210131119_73-scaled.jpeg">
+                        </div>
+                        <div class="story-list_text">
+                            <h2 class="story-list_title">文章標題文章標題文章標題文章標題</h2>
+                            <p>文章內容文章內容文章內容文章內容文章內容</p>
+                        </div>
                     </div>
                     <div class="story-list_news">
-                        <div class="story-list_image"></div>
-                        <div class="story-list_text"></div>
+                        <div class="story-list_image">
+                            <img src="https://www.computerdiy.com.tw/wp-content/uploads/20201210131119_73-scaled.jpeg">
+                        </div>
+                        <div class="story-list_text">
+                            <h2 class="story-list_title">文章標題文章標題文章標題文章標題</h2>
+                            <p>文章內容文章內容文章內容文章內容文章內容</p>
+                        </div>
                     </div>
                     <div class="story-list_news">
-                        <div class="story-list_image"></div>
-                        <div class="story-list_text"></div>
+                        <div class="story-list_image">
+                            <img src="https://www.computerdiy.com.tw/wp-content/uploads/20201210131119_73-scaled.jpeg">
+                        </div>
+                        <div class="story-list_text">
+                            <h2 class="story-list_title">文章標題文章標題文章標題文章標題</h2>
+                            <p>文章內容文章內容文章內容文章內容文章內容</p>
+                        </div>
                     </div>
                     <div class="story-list_news">
-                        <div class="story-list_image"></div>
-                        <div class="story-list_text"></div>
+                        <div class="story-list_image">
+                            <img src="https://www.computerdiy.com.tw/wp-content/uploads/20201210131119_73-scaled.jpeg">
+                        </div>
+                        <div class="story-list_text">
+                            <h2 class="story-list_title">文章標題文章標題文章標題文章標題</h2>
+                            <p>文章內容文章內容文章內容文章內容文章內容</p>
+                        </div>
                     </div>
                     <div class="story-list_news">
-                        <div class="story-list_image"></div>
-                        <div class="story-list_text"></div>
+                        <div class="story-list_image">
+                            <img src="https://www.computerdiy.com.tw/wp-content/uploads/20201210131119_73-scaled.jpeg">
+                        </div>
+                        <div class="story-list_text">
+                            <h2 class="story-list_title">文章標題文章標題文章標題文章標題</h2>
+                            <p>文章內容文章內容文章內容文章內容文章內容</p>
+                        </div>
                     </div>
                     <div class="story-list_news">
-                        <div class="story-list_image"></div>
-                        <div class="story-list_text"></div>
+                        <div class="story-list_image">
+                            <img src="https://www.computerdiy.com.tw/wp-content/uploads/20201210131119_73-scaled.jpeg">
+                        </div>
+                        <div class="story-list_text">
+                            <h2 class="story-list_title">文章標題文章標題文章標題文章標題</h2>
+                            <p>文章內容文章內容文章內容文章內容文章內容</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -330,27 +619,39 @@
                 </header>
                 <div class="pod-content_item">
                     <div class="story-list_news">
-                        <div class="story-list_image"></div>
+                        <div class="story-list_image">
+                            <img
+                                src="https://c4.wallpaperflare.com/wallpaper/355/974/363/comics-peanuts-cartoon-music-wallpaper-preview.jpg">
+                        </div>
                         <div class="story-list_text">
-                            <!-- <h2 class="story-list_title"></h2> -->
+                            <h2 class="story-list_title">文章標題文章標題文章標題文章標題</h2>
                         </div>
                     </div>
                     <div class="story-list_news">
-                        <div class="story-list_image"></div>
+                        <div class="story-list_image">
+                            <img
+                                src="https://c4.wallpaperflare.com/wallpaper/355/974/363/comics-peanuts-cartoon-music-wallpaper-preview.jpg">
+                        </div>
                         <div class="story-list_text">
-                            <!-- <h2 class="story-list_title"></h2> -->
+                            <h2 class="story-list_title">文章標題文章標題文章標題文章標題</h2>
                         </div>
                     </div>
                     <div class="story-list_news">
-                        <div class="story-list_image"></div>
+                        <div class="story-list_image">
+                            <img
+                                src="https://c4.wallpaperflare.com/wallpaper/355/974/363/comics-peanuts-cartoon-music-wallpaper-preview.jpg">
+                        </div>
                         <div class="story-list_text">
-                            <!-- <h2 class="story-list_title"></h2> -->
+                            <h2 class="story-list_title">文章標題文章標題文章標題文章標題</h2>
                         </div>
                     </div>
                     <div class="story-list_news">
-                        <div class="story-list_image"></div>
+                        <div class="story-list_image">
+                            <img
+                                src="https://c4.wallpaperflare.com/wallpaper/355/974/363/comics-peanuts-cartoon-music-wallpaper-preview.jpg">
+                        </div>
                         <div class="story-list_text">
-                            <!-- <h2 class="story-list_title"></h2> -->
+                            <h2 class="story-list_title">文章標題文章標題文章標題文章標題</h2>
                         </div>
                     </div>
                 </div>
