@@ -75,7 +75,7 @@ const leftnews_text_Data = [{
     href: "https://youtu.be/dQw4w9WgXcQ",
 }];
 
-update_El_a_text = ('story-list_title', leftnews_text_Data);
+update_El_a_text('story-list_title', leftnews_text_Data);
 
 // const target_aElement = document.getElementsByClassName('story-list_title');
 // target_aElement[0].children[0].innerHTML=leftnews_text_Data[0].text;
