@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="index1.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>webframe</title>
+</head>
+<body>
+    <div>
+        <!-- 頁首 -->
+        <section class="topphoto">
+            <a class="container"></a>
+        </section>
+        <!-- 聯合報 訂閱 大圖 晚點評 精選推薦 圖解新聞 今日報紙-->
+        <section class="main">
+            <!-- 聯合報 訂閱 -->
+            <header class="header">
+                <div class="container">
+                    <!-- logo -->
+                    <div class="logo_wrapper">
+                        <a class="logo">
+                            <img src="https://vip.udn.com/static/img/logo.svg">
+                        </a>
+                    </div>
+                    <!-- 選單 -->
+                    <div class="menu">
+                        <span class="nav-menu"></span>
+                        <nav class="navigation">
+                            <div class="splide_track">
+                                <ul class="splide_list">
+                                    <li class="navigation-content visible" id="splide01">
+                                        <a href="" class="navigation-list">2024起跑</a>
+                                    </li>
+                                    <li class="navigation-content visible" id="splide02">
+                                        <a href="" class="navigation-list">政治</a>
+                                    </li>
+                                    <li class="navigation-content visible" id="splide03">
+                                        <a href="" class="navigation-list">國際</a>
+                                    </li>
+                                    <li class="navigation-content visible" id="splide04">
+                                        <a href="" class="navigation-list">財經</a>
+                                    </li>
+                                    <li class="navigation-content visible" id="splide05">
+                                        <a href="" class="navigation-list">教育</a>
+                                    </li>
+                                    <li class="navigation-content visible" id="splide06">
+                                        <a href="" class="navigation-list">軍武</a>
+                                    </li>
+                                    <li class="navigation-content visible" id="splide07">
+                                        <a href="" class="navigation-list">生活</a>
+                                    </li>
+                                    <li class="navigation-content visible" id="splide08">
+                                        <a href="" class="navigation-list">評論</a>
+                                    </li>
+                                    <li class="navigation-content visible" id="splide09">
+                                        <a href="" class="navigation-list">聽幕後</a>
+                                    </li>
+                                    <li class="navigation-content visible" id="splide10">
+                                        <a href="" class="navigation-list">報紙</a>
+                                    </li>
+                                    <li class="navigation-content visible" id="splide11">
+                                        <a href="" class="navigation-list">專題</a>
+                                    </li>
+                                    <li class="navigation-content" id="splide12">
+                                        <a href="" class="navigation-list">開放編輯室</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                    <!-- 訂閱 -->
+                    <section class="tools-box">
+                        <div class="tools-box_holder">
+                            <a class="subscription">
+                                <span class="tools-box__text">訂閱</span>
+                            </a>
+                            <span class="user-menu"></span>
+                        </div>
+                    </section>
+                </div>
+            </header>
+            <!-- 大圖-->
+            <div class="list-news"></div>
+            <!-- 晚點評-->
+            <section class="editor-news"></section>
+            <!-- 精選推薦 -->
+            <section class="recommended-news"></section>
+            <!-- 圖解新聞-->
+            <section class="graphic-news">
+                <header class="context-box_header">
+                    <h3 class="context-box_title">圖解新聞</h3>
+                </header>
+                <div class="story-list_news">
+                    <div class="story-list_image">
+                        <a href="https://vip.udn.com/vip/story/122664/6974139?from=vipudn_chart_index">
+                            <!-- <img class="lazyloaded" src="https://pgw.udn.com.tw/gw/photo.php?u=https://uc.udn.com.tw/photo/2023/02/15/1/20202037.png&x=&y=&sw=&sh=&exp=3600&w=640"> -->
+                        </a>
+                    </div>
+                    <div class="story-list_text">
+                        <h2 class="story-list_title">
+                            <a href="https://vip.udn.com/vip/story/122664/6974139?from=vipudn_chart_index">文章標題文章標題文章標題文章標題文章標題</a>
+                        </h2>
+                        <p>
+                            <a href="https://vip.udn.com/vip/story/122664/6974139?from=vipudn_chart_index">
+                                文章內容文章內容文章內容文章內容文章內容文章內容文章內容
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <!-- 今日報紙 -->
+            <section class="newspaper-news">
+                    <div class="newspaper-news_wrapper">
+                        <header class="context-box_header">
+                            <h3 class="context-box_title">今日報紙</h3>
+                        </header>
+                        <div class="newspaper-news_image">
+                            <a href="https://vip.udn.com/vip/newspaper?from=vipudn_paper_index">
+                                <img class="lazyloaded" src="https://pgw.udn.com.tw/gw/photo.php?u=https://uc.udn.com.tw/fullpage/1/2023/02/16/20230215235408836.jpg&x=&y=&sw=&sh=&exp=3600&pr=15">
+                            </a>
+                        </div>
+                    </div>
+            </section>
+            <!-- 國際 財經 PAD,MOB沒有-->
+            <section class="section-news">
+                <header class="context-box_header">
+                    <h3 class="context-box_title">
+                        <a href="https://vip.udn.com/vip/cate/121910?from=vipudn_maincontent_index">國際</a>
+                    </h3>
+                </header>
+                <div class="section-news_wrapper">
+                    <div class="story-list_news section-news_left">
+                        <div class="story-list_image">
+                            <a href="https://vip.udn.com/vip/story/121937/6972000?from=vipudn_maincontent_index">
+                                <!-- <img class="lazyloaded" src="https://pgw.udn.com.tw/gw/photo.php?u=https://uc.udn.com.tw/photo/2023/02/15/realtime/20196781.jpg&s=Y&x=0&y=0&sw=430&sh=287&exp=3600&w=640"> -->
+                                <img src="https://llama.study/wp-content/uploads/2021/05/12-Essay-Database-736x415.jpg">
+                            </a>
+                        </div>
+                        <div class="story-list_text">
+                            <h2 class="story-list_title">
+                                <div>
+                                    <a class="story-list_sub">世界鏡頭</a>
+                                </div>
+                                <div>
+                                    <a class="story-list_subtitle">文章標題文章標題文章標題文章標題文章標題文章標題</a>
+                                </div>
+                            </h2>
+                            <p>
+                                <a class="story-list_subtext">文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="story-list_news section-news_right">
+                        <div class="story-list_image">
+                            <a><!-- <img class="lazyloaded" src="https://pgw.udn.com.tw/gw/photo.php?u=https://uc.udn.com.tw/photo/2023/02/15/realtime/20202097.jpg&s=Y&x=0&y=0&sw=3375&sh=2250&exp=3600&w=640"> -->
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM4bGPGN1x1X10iKAM-_j2hRikVzMQZSUlvGN0OkKaNh_oW_sBVuIQ2Gdf_rQgF8fyU6s&usqp=CAU">
+                            </a>
+                        </div>
+                        <div class="story-list_text">
+                            <h2 class="story-list_title">
+                                <a class="story-list_sub">世界鏡頭</a>
+                                <a class="story-list_subtitle">文章標題文章標題文章標題文章標題文章標題文章標題</a>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <header class="context-box_header">
+                    <h3 class="context-box_title">
+                        <a href="https://vip.udn.com/vip/cate/121909?from=vipudn_maincontent_index">財經</a>
+                    </h3>
+                </header>
+                <div class="section-news_wrapper">
+                    <div class="story-list_news section-news_left">
+                        <div class="story-list_image">
+                            <a href="https://vip.udn.com/vip/story/121938/6972500?from=vipudn_maincontent_index">
+                                <!-- <img class="lazyloaded" src="https://pgw.udn.com.tw/gw/photo.php?u=https://uc.udn.com.tw/photo/2023/02/15/realtime/20199959.jpg&s=Y&x=0&y=0&sw=1567&sh=1046&exp=3600&w=640"> -->
+                                <img src="https://llama.study/wp-content/uploads/2021/05/12-Essay-Database-736x415.jpg">
+                            </a>
+                        </div>
+                        <div class="story-list_text">
+                            <h2 class="story-list_title">
+                                <a class="story-list_sub">財經掃描</a>
+                                <a class="story-list_subtitle">文章標題文章標題文章標題文章標題文章標題文章標題文章標題文章標題</a>
+                            </h2>
+                            <p>
+                                <a class="story-list_subtext">文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="story-list_news section-news_right">
+                        <div class="story-list_image">
+                            <a>
+                                <!-- <img class="lazyloaded" src="https://pgw.udn.com.tw/gw/photo.php?u=https://uc.udn.com.tw/photo/2023/02/15/realtime/20202117.jpeg&s=Y&x=0&y=0&sw=1280&sh=853&exp=3600&w=640"> -->
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM4bGPGN1x1X10iKAM-_j2hRikVzMQZSUlvGN0OkKaNh_oW_sBVuIQ2Gdf_rQgF8fyU6s&usqp=CAU">
+                            </a>
+                        </div>
+                        <div class="story-list_text">
+                            <h2 class="story-list_title">
+                                <a class="story-list_sub">財經掃描</a>
+                                <a class="story-list_subtitle">文章標題文章標題文章標題文章標題文章標題文章標題</a>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- 領讀人 -->
+            <section class="leader-reader">
+                <header class="context-box_header">
+                    <h3 class="context-box_title">領讀人</h3>
+                </header>
+                <div class="leader-reader_wrapper">
+                    <div class="splide_list">
+                        <div class="splide_splide leader-reader_box">
+                            <div class="author-list leader-reader_left">
+                                <a class="author-list_image" href="https://vip.udn.com/author/articles/8799/4025?from=vipudn_lead_index">
+                                    <img class="lazyloaded" src="https://pgw.udn.com.tw/gw/photo.php?u=https://uc.udn.com.tw/photo/author/photo/4025.png&clr=2023021617">
+                                </a>
+                                <div class="author-list_wrapper">
+                                    <a class="author-list_info" href="https://vip.udn.com/author/articles/8799/4025?from=vipudn_lead_index">
+                                        <span class="author-list_name">程嘉文</span>
+                                        <span class="author-list_position">記者</span>
+                                    </a>
+                                    <h2 class="author-list_title">
+                                        <span>文章內容文章內容文章內容文章內容</span>
+                                    </h2>
+                                </div>
+                            </div>
+                            <div class="leader-reader_right">
+                                <div class="story-list_news leader-reader_sub">
+                                    <div class="story-list_image">
+                                        <a href="https://vip.udn.com/vip/story/122874/6967618?from=vipudn_lead_index">
+                                            <!-- <img class="lazyloaded" src="https://pgw.udn.com.tw/gw/photo.php?u=https://uc.udn.com.tw/photo/2023/02/13/realtime/20183079.jpg&s=Y&x=0&y=0&sw=1113&sh=740&exp=3600&w=300"> -->
+                                        </a>
+                                    </div>
+                                    <div class="story-list_text">
+                                        <h2 class="story-list_title">
+                                            <a class="story-list_sub" href="https://vip.udn.com/vip/cate/121915/122874?from=vipudn_lead_index">軍武科技</a>
+                                            <a>文章標題文章標題</a>
+                                        </h2>
+                                    </div>
+                                </div>
+                                <div class="story-list_news leader-reader_sub">
+                                    <div class="story-list_image">
+                                        <a href="https://vip.udn.com/vip/story/122874/6970022?from=vipudn_lead_index">
+                                            <!-- <img class="lazyloaded" src="https://pgw.udn.com.tw/gw/photo.php?u=https://uc.udn.com.tw/photo/2023/02/14/realtime/20190686.jpg&s=Y&x=452&y=80&sw=2010&sh=1340&exp=3600&w=300"> -->
+                                        </a>
+                                    </div>
+                                    <div class="story-list_text">
+                                        <h2 class="story-list_title">
+                                            <a class="story-list_sub" href="https://vip.udn.com/vip/cate/121915/122874?from=vipudn_lead_index">軍武科技</a>
+                                            <a>文章標題文章標題</a>
+                                        </h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="splide_splide leader-reader_box">
+                            <div class="author-list leader-reader_left">
+                                <a class="author-list_image" href="https://vip.udn.com/author/articles/8799/7457?from=vipudn_lead_index">
+                                    <img class="lazyloaded" src="https://pgw.udn.com.tw/gw/photo.php?u=https://uc.udn.com.tw/photo/author/photo/7457.png&clr=2023021617">
+                                </a>
+                                <div class="author-list_wrapper">
+                                    <a class="author-list_info" href="https://vip.udn.com/author/articles/8799/7457?from=vipudn_lead_index">
+                                        <span class="author-list_name">郭政芬</span>
+                                        <span class="author-list_position">記者</span>
+                                    </a>
+                                    <h2 class="author-list_title">
+                                        <span>文章內容文章內容文章內容文章內容</span>
+                                    </h2>
+                                </div>
+                            </div>
+                            <div class="leader-reader_right">
+                                <div class="story-list_news leader-reader_sub">
+                                    <div class="story-list_image">
+                                        <a href="https://vip.udn.com/vip/story/122879/6972762?from=vipudn_lead_index">
+                                            <!-- <img class="lazyloaded" src="https://pgw.udn.com.tw/gw/photo.php?u=https://uc.udn.com.tw/photo/2023/02/15/realtime/20198458.jpg&s=Y&x=0&y=11&sw=1479&sh=986&exp=3600&w=300"> -->
+                                        </a>
+                                    </div>
+                                    <div class="story-list_text">
+                                        <h2 class="story-list_title">
+                                            <a class="story-list_sub">國際趨勢</a>
+                                            <a>文章標題文章標題</a>
+                                        </h2>
+                                    </div>
+                                </div>
+                                <div class="story-list_news leader-reader_sub">
+                                    <div class="story-list_image">
+                                        <a href="https://vip.udn.com/vip/story/122866/6963305?from=vipudn_lead_index">
+                                            <!-- <img class="lazyloaded" src="https://pgw.udn.com.tw/gw/photo.php?u=https://uc.udn.com.tw/photo/2023/02/10/realtime/20166448.jpeg&s=Y&x=0&y=15&sw=2009&sh=1338&exp=3600&w=300"> -->
+                                        </a>
+                                    </div>
+                                    <div class="story-list_text">
+                                        <h2 class="story-list_title">
+                                            <a class="story-list_sub">高教視窗</a>
+                                            <a>文章標題文章標題</a>
+                                        </h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- 評論 -->
+            <section class="comment">
+                <header class="context-box_header">
+                    <h3 class="context-box_title">
+                        <a class="context-box_title">評論</a>
+                    </h3>
+                </header>
+                <div class="comment-content">
+                    <div class="author-list">
+                        <a class="author-list_image">
+                            <img class="lazyloaded" src="https://pgw.udn.com.tw/gw/photo.php?u=https://uc.udn.com.tw/photo/author/photo/4188.png&clr=2023021620">
+                        </a>
+                        <div class="author-list_wrapper">
+                            <a class="author-list_info">
+                                <span class="author-list_name">林新輝</span>
+                                <span class="author-list_position">副總編輯</span>
+                            </a>
+                            <h2 class="author-list_title">
+                                <a>文章標題文章標題文章標題文章標題文章標題</a>
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="author-list">
+                        <a class="author-list_image">
+                            <img class="lazyloaded" src="https://pgw.udn.com.tw/gw/photo.php?u=https://uc.udn.com.tw/photo/author/photo/4188.png&clr=2023021620">
+                        </a>
+                        <div class="author-list_wrapper">
+                            <a class="author-list_info">
+                                <span class="author-list_name">林新輝</span>
+                                <span class="author-list_position">副總編輯</span>
+                            </a>
+                            <h2 class="author-list_title">
+                                <a>文章標題文章標題文章標題文章標題文章標題</a>
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="author-list">
+                        <a class="author-list_image">
+                            <img class="lazyloaded" src="https://pgw.udn.com.tw/gw/photo.php?u=https://uc.udn.com.tw/photo/author/photo/4188.png&clr=2023021620">
+                        </a>
+                        <div class="author-list_wrapper">
+                            <a class="author-list_info">
+                                <span class="author-list_name">林新輝</span>
+                                <span class="author-list_position">副總編輯</span>
+                            </a>
+                            <h2 class="author-list_title">
+                                <a>文章標題文章標題文章標題文章標題文章標題</a>
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="author-list">
+                        <a class="author-list_image">
+                            <img class="lazyloaded" src="https://pgw.udn.com.tw/gw/photo.php?u=https://uc.udn.com.tw/photo/author/photo/4188.png&clr=2023021620">
+                        </a>
+                        <div class="author-list_wrapper">
+                            <a class="author-list_info">
+                                <span class="author-list_name">林新輝</span>
+                                <span class="author-list_position">副總編輯</span>
+                            </a>
+                            <h2 class="author-list_title">
+                                <a>文章標題文章標題文章標題文章標題文章標題</a>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <!-- 聯合副刊 | 閱讀 -->
+        <section class="supplement-content">
+            <div class="container">
+                <header class="context-box_header">
+                    <h3 class="context-box_title">聯合副刊 | 閱讀</h3>
+                </header>
+                <div class="supplement-content_wrapper">
+                    <a class="supplement-content_left">
+                        <div class="supplement-content_description">
+                            <p class="supplement-content_text">
+                                文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容
+                            </p>
+                            <h2 class="supplement-content_title">書摘 | 文章標題文章標題文章標題文章標題文章標題文章標題</h2>
+                        </div>
+                    </a>
+                    <a class="supplement-content_image">
+                        <img src="https://pgw.udn.com.tw/gw/photo.php?u=https://uc.udn.com.tw/photo/2023/01/17/realtime/20009912.jpg&s=Y&x=0&y=260&sw=2332&sh=1555&exp=3600&w=960&nt=1">
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- 軍武科技 發燒話題 -->
+        <section class="secondary-content">
+            <div class="container">
+                <section class="technology-content">
+                    <header class="context-box_header">
+                        <h3 class="context-box_title">軍武科技</h3>
+                    </header>
+                    <div class="technology-content_list">
+                        <div class="story-list__news">
+                            <div class="story-list_image">
+                                <a>
+                                    <img src="https://media.istockphoto.com/id/155380716/photo/commercial-jet-flying-over-clouds.jpg?s=612x612&w=0&k=20&c=idhnJ7ZdrLA1Dv5GO2R28A8WCx1SXCFVLu5_2cfdvXw=">
+                                </a>
+                            </div>
+                            <div class="story-list__text">
+                                <h2 class="story-list__title">
+                                    <a>文章標題文章標題文章標題文章標題文章標題</a>
+                                </h2>
+                                <p>
+                                    <a>文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="story-list__news">
+                            <div class="story-list_image">
+                                <a>
+                                    <img src="https://media.istockphoto.com/id/155380716/photo/commercial-jet-flying-over-clouds.jpg?s=612x612&w=0&k=20&c=idhnJ7ZdrLA1Dv5GO2R28A8WCx1SXCFVLu5_2cfdvXw=">
+                                </a>
+                            </div>
+                            <div class="story-list__text">
+                                <h2 class="story-list__title">
+                                    <a>文章標題文章標題文章標題文章標題文章標題</a>
+                                </h2>
+                                <p>
+                                    <a>文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容
+                                    </a>
+                                </p>
+                            </div>                                
+                        </div>
+                    </div>
+                </section>
+                <section class="life-content">
+                    <header class="context-box_header">
+                        <h3 class="context-box_title">發燒話題</h3>
+                    </header>
+                    <div class="life-content_list">
+                        <div class="story-list_news">
+                            <div class="story-list_image">
+                                <a>
+                                    <img src="https://media.istockphoto.com/id/1182477852/photo/breaking-news-world-news-with-map-backgorund.jpg?s=612x612&w=0&k=20&c=SQfmzF39HZJ_AqFGosVGKT9iGOdtS7ddhfj0EUl0Tkc=">
+                                </a>
+                            </div>
+                            <div class="story-list__text">
+                                <h2 class="story-list__title">
+                                    <a>文章標題文章標題文章標題文章標題文章標題</a>
+                                </h2>
+                                <p>
+                                    <a>文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="story-list_news">
+                            <div class="story-list_image">
+                                <a>
+                                    <img src="https://media.istockphoto.com/id/1182477852/photo/breaking-news-world-news-with-map-backgorund.jpg?s=612x612&w=0&k=20&c=SQfmzF39HZJ_AqFGosVGKT9iGOdtS7ddhfj0EUl0Tkc=">
+                                </a>
+                            </div>
+                            <div class="story-list__text">
+                                <h2 class="story-list__title">
+                                    <a>文章標題文章標題文章標題文章標題文章標題</a>
+                                </h2>
+                                <p>
+                                    <a>文章內容文章內容文章內容文章內容文章內容文章內容文章內容文章內容
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+        <!-- 最新文章 -->
+        <section class="section-newest">
+            <div class="container">
+                <header class="context-box_header">
+                    <h2 class="context-box_title">最新文章</h2>
+                    <a class="context-box_link">
+                        <span class="context-box_more">更多文章</span>
+                    </a>
+                </header>
+                <div class="storys">
+                    <div class="story-list_news">
+                        <div class="story-list_image">
+                            <a>
+                                <img src="https://www.stockvault.net/data/2019/08/31/269064/thumb16.jpg">
+                            </a>
+                        </div>
+                        <div class="story-list__text">
+                            <h2 class="story-list_title">
+                                文章標題文章標題文章標題文章標題文章標題
+                            </h2>
+                            <p>
+                                <a>文章內容文章內容文章內容文章內容文章內容文章內容</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="story-list_news">
+                        <div class="story-list_image">
+                            <a>
+                                <img src="https://www.stockvault.net/data/2019/08/31/269064/thumb16.jpg">
+                            </a>
+                        </div>
+                        <div class="story-list__text">
+                            <h2 class="story-list_title">
+                                文章標題文章標題文章標題文章標題文章標題
+                            </h2>
+                            <p>
+                                <a>文章內容文章內容文章內容文章內容文章內容文章內容</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="story-list_news">
+                        <div class="story-list_image">
+                            <a>
+                                <img src="https://www.stockvault.net/data/2019/08/31/269064/thumb16.jpg">
+                            </a>
+                        </div>
+                        <div class="story-list__text">
+                            <h2 class="story-list_title">
+                                文章標題文章標題文章標題文章標題文章標題
+                            </h2>
+                            <p>
+                                <a>文章內容文章內容文章內容文章內容文章內容文章內容</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="story-list_news">
+                        <div class="story-list_image">
+                            <a>
+                                <img src="https://www.stockvault.net/data/2019/08/31/269064/thumb16.jpg">
+                            </a>
+                        </div>
+                        <div class="story-list__text">
+                            <h2 class="story-list_title">
+                                文章標題文章標題文章標題文章標題文章標題
+                            </h2>
+                            <p>
+                                <a>文章內容文章內容文章內容文章內容文章內容文章內容</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="story-list_news">
+                        <div class="story-list_image">
+                            <a>
+                                <img src="https://www.stockvault.net/data/2019/08/31/269064/thumb16.jpg">
+                            </a>
+                        </div>
+                        <div class="story-list__text">
+                            <h2 class="story-list_title">
+                                文章標題文章標題文章標題文章標題文章標題
+                            </h2>
+                            <p>
+                                <a>文章內容文章內容文章內容文章內容文章內容文章內容</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="story-list_news">
+                        <div class="story-list_image">
+                            <a>
+                                <img src="https://www.stockvault.net/data/2019/08/31/269064/thumb16.jpg">
+                            </a>
+                        </div>
+                        <div class="story-list__text">
+                            <h2 class="story-list_title">
+                                文章標題文章標題文章標題文章標題文章標題
+                            </h2>
+                            <p>
+                                <a>文章內容文章內容文章內容文章內容文章內容文章內容</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="story-list_news">
+                        <div class="story-list_image">
+                            <a>
+                                <img src="https://www.stockvault.net/data/2019/08/31/269064/thumb16.jpg">
+                            </a>
+                        </div>
+                        <div class="story-list__text">
+                            <h2 class="story-list_title">
+                                文章標題文章標題文章標題文章標題文章標題
+                            </h2>
+                            <p>
+                                <a>文章內容文章內容文章內容文章內容文章內容文章內容</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="story-list_news">
+                        <div class="story-list_image">
+                            <a>
+                                <img src="https://www.stockvault.net/data/2019/08/31/269064/thumb16.jpg">
+                            </a>
+                        </div>
+                        <div class="story-list__text">
+                            <h2 class="story-list_title">
+                                文章標題文章標題文章標題文章標題文章標題
+                            </h2>
+                            <p>
+                                <a>文章內容文章內容文章內容文章內容文章內容文章內容</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="story-list_news">
+                        <div class="story-list_image">
+                            <a>
+                                <img src="https://www.stockvault.net/data/2019/08/31/269064/thumb16.jpg">
+                            </a>
+                        </div>
+                        <div class="story-list__text">
+                            <h2 class="story-list_title">
+                                文章標題文章標題文章標題文章標題文章標題
+                            </h2>
+                            <p>
+                                <a>文章內容文章內容文章內容文章內容文章內容文章內容</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="story-list_news">
+                        <div class="story-list_image">
+                            <a>
+                                <img src="https://www.stockvault.net/data/2019/08/31/269064/thumb16.jpg">
+                            </a>
+                        </div>
+                        <div class="story-list__text">
+                            <h2 class="story-list_title">
+                                文章標題文章標題文章標題文章標題文章標題
+                            </h2>
+                            <p>
+                                <a>文章內容文章內容文章內容文章內容文章內容文章內容</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- 聯合開POD -->
+        <section class="pod-content">
+            <div class="container pod-content_wrapper">
+                <header class="context-box_header">
+                    <h3 class="context-box_title">聯合開POD</h3>
+                </header>
+                <div class="pod-content_item">
+                    <div class="story-list_news">
+                        <div class="story-list_image">
+                            <a>
+                                <img src="https://img.freepik.com/free-photo/galaxy-nature-aesthetic-background-starry-sky-mountain-remixed-media_53876-126761.jpg">
+                            </a>
+                        </div>
+                        <div class="story-list_text">
+                            <h2 class="story-list_title">
+                                <a>文章標題文章標題文章標題文章標題文章標題</a>
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="story-list_news">
+                        <div class="story-list_image">
+                            <a>
+                                <img src="https://img.freepik.com/free-photo/galaxy-nature-aesthetic-background-starry-sky-mountain-remixed-media_53876-126761.jpg">
+                            </a>
+                        </div>
+                        <div class="story-list_text">
+                            <h2 class="story-list_title">
+                                <a>文章標題文章標題文章標題文章標題文章標題</a>
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="story-list_news">
+                        <div class="story-list_image">
+                            <a>
+                                <img src="https://img.freepik.com/free-photo/galaxy-nature-aesthetic-background-starry-sky-mountain-remixed-media_53876-126761.jpg">
+                            </a>
+                        </div>
+                        <div class="story-list_text">
+                            <h2 class="story-list_title">
+                                <a>文章標題文章標題文章標題文章標題文章標題</a>
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="story-list_news">
+                        <div class="story-list_image">
+                            <a>
+                                <img src="https://img.freepik.com/free-photo/galaxy-nature-aesthetic-background-starry-sky-mountain-remixed-media_53876-126761.jpg">
+                            </a>
+                        </div>
+                        <div class="story-list_text">
+                            <h2 class="story-list_title">
+                                <a>文章標題文章標題文章標題文章標題文章標題</a>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- 頁尾 -->
+        <footer class="footer">
+            <div class="container">
+                <section class="footer-social">
+                    <!-- Facebook -->
+                    <a target="_blank" href="" class="btn btn-social"></a>
+                    <!-- Instagram -->
+                    <a target="_blank" href="" class="btn btn-social"></a>
+                    <!-- Youtube -->
+                    <a target="_blank" href="" class="btn btn-social"></a>
+                    <!-- Line -->
+                    <a target="_blank" href="" class="btn btn-social"></a>
+                </section>
+                <section class="footer-note">
+                    <a class="footer-note_link">產品介紹</a>
+                    <a class="footer-note_link">常見問題</a>
+                    <a class="footer-note_link">我要發問</a>
+                    <a class="footer-note_link">企業團購</a>                        </a>
+                    <a class="footer-note_link">隱私政策</a>
+                    <a class="footer-note_link">服務條款</a>
+                    <a>聯合新聞網</a>
+                    <div class="footer-word">
+                        聯合報系著作權所有 © 2020-23 All Rights Reserved
+                    </div>
+                </section>
+            </div>
+        </footer>
+    </div>
+    <script src="index.js"></script>    
+</body>
+</html>

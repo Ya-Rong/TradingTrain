@@ -1,0 +1,225 @@
+@media screen and (min-width: 1279px) {
+    :root{
+        --main-width:1280px;
+    }
+}
+@media screen and (max-width: 1279px) and (min-width: 1024px) {
+    :root{
+        --main-width:992px;
+    }
+    .list-news_left {
+        display: none;
+    }
+    .list-news_mid {
+        width: 75%;
+    }
+    .list-news_right {
+        width: 25%;
+    }
+    .leader-reader .leader-reader_wrapper .author-list {
+        margin-right: 24px;
+        max-width: 152px;
+        padding: 0;
+    }
+}
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+
+}
+@media screen and (max-width: 767px) {
+    
+}
+
+/* section-news */
+.section-news {
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 16px;
+}
+.section-news .context-box_header {
+    margin-bottom: 25px;
+}
+.section-news_wrapper {
+    width: 100%;
+    height: 371px;
+    margin-bottom: 48px;
+    display: flex;
+}
+.section-news_left {
+    width: 75%;
+    height: 346px;
+    padding-bottom: 24px;
+    margin-right: 24px;
+    display: flex;
+}
+.section-news_wrapper .story-list_title {
+    display: flex;
+    flex-direction: column;
+}
+.section-news_wrapper .story-list_title .story-list_sub {
+    color: #cb2528;
+    border: 1px solid #cb2528;
+    border-radius: 4px;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 4px 16px;
+    vertical-align: top;
+    width: 64px;
+    margin-top: -10px;
+}
+.section-news_left .story-list_image {
+    width: 55%;
+    height: 346px;
+}
+.section-news_left .story-list_text {
+    width: 45%;
+    height: 346px;
+    padding-left: 24px;
+}
+.section-news_right {
+    width: 25%;
+    height: 370px;
+}
+.section-news_right .story-list_image {
+    width: 100%;
+    height: 202px;
+}
+.section-news_right .story-list_image img {
+    width: 100%;
+}
+.section-news_right .story-list_text {
+    width: 100%;
+}
+
+/* leader-reader */
+.leader-reader {
+    width: 100%;
+    height: 409px;
+}
+.leader-reader:before {
+    background-color: #f5f5f5;
+    content: "";
+    left: -10vw;
+    width: 110vw;
+    height: 463px;
+    position: absolute;
+    z-index: -1;
+}
+.leader-reader .context-box_header {
+    margin-top: 56px;
+    margin-bottom: 25px;
+}
+.leader-reader_wrapper {
+    width:var(--main-width);
+    height: 249px;
+    margin-bottom: 40px;
+}
+.splide_list {
+    width:var(--main-width);
+    height: 249px;
+    display: flex;
+}
+.leader-reader_box {
+    width: 50%;
+    height: 249px;
+    margin-right: 40px;
+    display: flex;
+}
+.leader-reader_box .author-list {
+    width: 30%;
+    margin-right: 24px;
+    max-width: 152px;
+    padding: 0;
+}
+.leader-reader_box .author-list_image {
+    width: 118px;
+    height: 118px;
+    margin: 0 auto;
+}
+.leader-reader_box .author-list_image img {
+    border-radius: 50%;
+}
+.leader-reader_box .author-list .author-list_wrapper {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.leader-reader_right {
+    width: 60%;
+}
+.leader-reader_right .story-list_news {
+    width: 100%;
+    padding-bottom: 24px;
+    margin-bottom: 24px;
+    display: flex;
+}
+.leader-reader_right .story-list_image {
+    width: 100%;
+}
+.leader-reader_right .story-list_text {
+    width: 237px;
+    height: 100px;
+    padding-left: 16px;
+    display: flex;
+}
+.leader-reader_right .story-list_text .story-list_title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.leader-reader_right .story-list_text .story-list_sub {
+    color: #cb2528;
+    border: 1px solid #cb2528;
+    border-radius: 4px;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 4px 16px;
+    vertical-align: top;
+    margin-top: -10px;
+}
+
+/* comment */
+.comment {
+    width: 100%;
+    height: 256px;
+    margin-bottom: 36px;
+}
+.comment .context-box_header {
+    margin-top: 72px;
+    margin-bottom: 25px;
+}
+.comment_content {
+    width: 100%;
+    height: 120px;
+    display: flex;
+}
+.comment_content .author-list {
+    width: 25%;
+    height: 95px;
+    padding-bottom: 24px;
+    display: flex;
+}
+.comment_content .author-list_image {
+    width: 95px;
+    height: 95px;
+}
+.comment_content .author-list_image img {
+    border-radius: 50%;
+}
+.comment_content .author-list_wrapper {
+    width: 201px;
+    height: 95px;
+    margin-left: 8px;
+    margin-right: 16px;
+    display: flex;
+    flex-direction: column;
+}
+.author-list_info {
+    display: flex;
+}
+.author-list_name {
+    /* display: inline-block; */
+    box-sizing: border-box;
+}

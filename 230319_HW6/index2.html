@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- <link rel="stylesheet" href="./css/index2.css"> -->
+    <link rel="stylesheet" href="./css/index2_1todaynews.css">
+    <link rel="stylesheet" href="./css/index2_2comment.css">
+    <link rel="stylesheet" href="./css/index2_3secondary-content.css">
+    <link rel="stylesheet" href="./css/index2_4footer.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>webframe</title>
+</head>
+
+<body>
+    <script src="./data/1_todaynews_data.js"></script>
+    <script src="./data/2_comment_data.js"></script>
+    <script src="./data/3_secondary_data.js"></script>
+    <script src="./data/4_footer_data.js"></script>
+
+    <div class="big-container">
+        <!-- 頁首 -->
+        <section class="topphoto">
+            <a class="container"></a>
+        </section>
+        <!-- 聯合報 訂閱 大圖 晚點評 精選推薦 圖解新聞 今日報紙-->
+        <section class="main">
+            <!-- 聯合報 訂閱 -->
+            <header class="header">
+                <div class="container">
+                    <div class="logo-wrapper">
+                        <a class="logo">
+                            <img src="https://vip.udn.com/static/img/logo.svg">
+                        </a>
+                    </div>
+                    <!-- 選單 -->
+                    <div class="menu">
+                        <nav class="navigation">
+                            <div class="splide_track">
+                                <a class="nav-menu"></a>
+                                <a class="splide01">2024起跑</a>
+                                <a class="splide02">政治</a>
+                                <a class="splide03">國際</a>
+                                <a class="splide04">財經</a>
+                                <a class="splide05">教育</a>
+                                <a class="splide06">軍武</a>
+                                <a class="splide07">生活</a>
+                                <a class="splide08">評論</a>
+                                <a class="splide09">聽幕後</a>
+                                <a class="splide10">報紙</a>
+                                <a class="splide11">專題</a>
+                                <a class="splide12">開放編輯室</a>
+                            </div>
+                        </nav>
+                    </div>
+                    <!-- 訂閱 -->
+                    <section class="tools-box">
+                        <div class="tools-box_holder">
+                            <a class="subscriptioin">
+                                <span class="tools-box_text">訂閱</span>
+                            </a>
+                            <span class="tools-box_item">
+                                <img src="https://cdn-icons-png.flaticon.com/128/4905/4905936.png">
+                            </span>
+                        </div>
+                    </section>
+                </div>
+            </header>
+            <!-- 大圖-->
+            <div class="list-news">
+                <div class="list-news_left">
+                    <div class="story-list_firstnews">
+                        <div class="story-list_image">
+                            <img class='firstnews_img'>
+                        </div>
+                        <div class="story-list_text">
+                            <h2 class="story-list_title left_text_1">
+                                <a></a>
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="story-list_news">
+                        <h2 class="story-list_title left_text_2">
+                            <a class="aa">文章標題文章標題文章標題文章標題</a>
+                        </h2>
+                    </div>
+                    <div class="story-list_news">
+                        <h2 class="story-list_title left_text_3">
+                            <a class="aa">文章標題文章標題文章標題文章標題</a>
+                        </h2>
+                    </div>
+                    <div class="story-list_news">
+                        <h2 class="story-list_title left_text_4">
+                            <a class="aa">文章標題文章標題文章標題文章標題</a>
+                        </h2>
+                    </div>
+                </div>
+                <div class="list-news_mid">
+                    <div class="list-news_center">
+                        <div class="story-list_news">
+                            <div class="story-list_image">
+                                <img class='centernews_img'>
+                            </div>
+                            <div class="story-list_text">
+                                <h2 class="story-list_title mid_text">
+                                    <a>文章標題文章標題文章標題文章標題文章標題文章標題</a>
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list-news_last">
+                        <div class="story-list_news">
+                            <div class="story-list_image">
+                                <img class="lastnews_img" src="https://i.ytimg.com/vi/ehIIXOS9tq4/maxresdefault.jpg">
+                            </div>
+                            <div class="story-list_text">
+                                <h2 class="story-list_title mid_text_2"></h2>
+                                <p class="mid_text_content"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="list-news_right">
+                    <!-- 晚點評-->
+                    <section class="editor-news">
+                        <div class="editor-news_wrapper">
+                            <header class="context-box_header">
+                                <h3 class="context-box_title">晚點評</h3>
+                            </header>
+                            <div class="story-list_holder">
+                                <div class="author-list">
+                                    <div class="author-list_image">
+                                        <img class="author01">
+                                    </div>
+                                    <div class="author-list_wrapper">
+                                        <a class="author-list_info">
+                                            <span class="author-list_name">姓名</span>
+                                            <span class="author-list_position">職位</span>
+                                        </a>
+                                        <h2 class="author-list_title">文章標題文章標題文章標題文章標題</h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- 精選推薦 -->
+                    <section class="recommended-news">
+                        <header class="context-box_header">
+                            <h3 class="context-box_title">精選推薦</h3>
+                        </header>
+                        <div class="story-list_holder">
+                            <div class="story-list_news">
+                                <div class="story-list_image">
+                                    <img class="recommended_1_img">
+                                </div>
+                                <div class="story-list_text">
+                                    <div class="story-list_title recommended_1">文章標題文章標題文章標題文章標題文章標題文章標題</div>
+                                </div>
+                            </div>
+                            <div class="story-list_news">
+                                <div class="story-list_image">
+                                    <img class="recommended_2_img">
+                                </div>
+                                <div class="story-list_text">
+                                    <div class="story-list_title recommended_2">文章標題文章標題文章標題文章標題文章標題文章標題</div>
+                                </div>
+                            </div>
+                            <div class="story-list_news">
+                                <div class="story-list_image">
+                                    <img class="recommended_3_img">
+                                </div>
+                                <div class="story-list_text">
+                                    <div class="story-list_title recommended_3">文章標題文章標題文章標題文章標題文章標題文章標題</div>
+                                </div>
+                                </div>
+                            <div class="story-list_news">
+                                <div class="story-list_image">
+                                    <img class="recommended_4_img">
+                                </div>
+                                <div class="story-list_text">
+                                    <div class="story-list_title recommended_4">文章標題文章標題文章標題文章標題文章標題文章標題</div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <!-- 1023px以下今日報紙 -->
+                <section class="newspaper-news_1023">
+                    <div class="newspaper-news_wrapper newspaper-news_wrapper_1023">
+                        <header class="context-box_header context-box_header_1023">
+                            <h3 class="context-box_title context-box_title_1023">今日報紙</h3>
+                        </header>
+                        <div class="newspaper-news_image newspaper-news_image_1023">
+                            <img class="news_img_1023">
+                        </div>
+                    </div>
+                </section>         
+            </div>   
+            <!-- 圖解新聞 今日報紙 -->
+            <section class="news">
+                <!-- 圖解新聞-->
+                <section class="graphic-news">
+                    <header class="context-box_header">
+                        <h3 class="context-box_title">圖解新聞</h3>
+                    </header>
+                    <div class="story-list_news">
+                        <div class="story-list_image">
+                            <a href="https://vip.udn.com/vip/story/122664/6974139?from=vipudn_chart_index">
+                                <img class="graphic_img">
+                            </a>
+                        </div>
+                        <div class="story-list_text">
+                            <h2 class="story-list_title graphic_title">文章標題文章標題文章標題文章標題</h2>
+                            <p class="graphic_content">文章內容文章內容文章內容文章內容文章內容</p>
+                        </div>
+                    </div>
+                </section>
+                <!-- 今日報紙 -->
+                <section class="newspaper-news">
+                    <div class="newspaper-news_wrapper">
+                        <header class="context-box_header">
+                            <h3 class="context-box_title">今日報紙</h3>
+                        </header>
+                        <div class="newspaper-news_image">
+                            <img class="news_img">
+                        </div>
+                    </div>
+                </section>
+            </section>
+            <!-- 國際 財經 PAD,MOB沒有-->
+            <section class="section-news">
+                <header class="context-box_header">
+                    <h3 class="context-box_title">國際</h3>
+                </header>
+                <div class="section-news_wrapper">
+                    <div class="section-news_left">
+                        <div class="story-list_image">
+                            <img class="international_img">
+                        </div>
+                        <div class="story-list_text">
+                            <h2 class="story-list_title">
+                                <a class="story-list_sub">新聞小標</a>
+                                <div class="sectionnews_title"></div>
+                            </h2>
+                            <p class="sectionnews_content"></p>
+                        </div>
+                    </div>
+                    <div class="section-news_right">
+                        <div class="story-list_image">
+                            <img class="international_2_img">
+                        </div>
+                        <div class="story-list_text">
+                            <h2 class="story-list_title">
+                                <a class="story-list_sub">新聞小標</a>
+                                <div class="sectionnews_title_2">文章標題文章標題文章標題文章標題</div>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <header class="context-box_header">
+                    <h3 class="context-box_title">財經</h3>
+                </header>
+                <div class="section-news_wrapper">
+                    <div class="section-news_left">
+                        <div class="story-list_image">
+                            <img class="finance_img">
+                        </div>
+                        <div class="story-list_text">
+                            <h2 class="story-list_title">
+                                <a class="story-list_sub">新聞小標</a>
+                                <div class="finance_title"></div>
+                            </h2>
+                            <p class="finance_content"></p>
+                        </div>
+                    </div>
+                    <div class="section-news_right">
+                        <div class="story-list_image">
+                            <img class="finance_2_img">
+                        </div>
+                        <div class="story-list_text">
+                            <h2 class="story-list_title">
+                                <a class="story-list_sub">新聞小標</a>
+                                <div class="finance_title_2"></div>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- 領讀人 -->
+            <section class="leader-reader">
+                <header class="context-box_header">
+                    <h3 class="context-box_title">領讀人</h3>
+                </header>
+                <div class="leader-reader_wrapper">
+                    <div class="splide_list">
+                        <div class="leader-reader_box">
+                            <div class="author-list">
+                                <div class="author-list_image">
+                                    <img class="leader_photo_img">
+                                </div>
+                                <div class="author-list_wrapper">
+                                    <a class="author-list_info">
+                                        <span class="author-list_name leader_info_name">姓名</span>
+                                        <span class="author-list_position leader_info_position">職位</span>
+                                    </a>
+                                    <h2 class="author-list_title">
+                                        <span class="leader_info"></span>
+                                    </h2>
+                                </div>
+                            </div>
+                            <div class="leader-reader_right">
+                                <div class="story-list_news">
+                                    <div class="story-list_image">
+                                        <img class="leader_img">
+                                    </div>
+                                    <div class="story-list_text">
+                                        <h2 class="story-list_title">
+                                            <a class="story-list_sub">新聞小標</a>
+                                            <div class="leader_title_1"></div>
+                                        </h2>
+                                    </div>
+                                </div>
+                                <div class="story-list_news">
+                                    <div class="story-list_image">
+                                        <img class="leader_2_img">
+                                    </div>
+                                    <div class="story-list_text">
+                                        <h2 class="story-list_title">
+                                            <a class="story-list_sub">新聞小標</a>
+                                            <div class="leader_title_2"></div>
+                                        </h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="leader-reader_box">
+                            <div class="author-list">
+                                <div class="author-list_image">
+                                    <img class="leader2_photo_img">
+                                </div>
+                                <div class="author-list_wrapper">
+                                    <a class="author-list_info">
+                                        <span class="author-list_name leader_info_name_r"></span>
+                                        <span class="author-list_position leader_info_position_r"></span>
+                                    </a>
+                                    <h2 class="author-list_title">
+                                        <span class="leader_info_r"></span>
+                                    </h2>
+                                </div>
+                            </div>
+                            <div class="leader-reader_right">
+                                <div class="story-list_news">
+                                    <div class="story-list_image">
+                                        <img class="leader2_img">
+                                    </div>
+                                    <div class="story-list_text">
+                                        <h2 class="story-list_title">
+                                            <a class="story-list_sub">新聞小標</a>
+                                            <div class="leader_title_1_r"></div>
+                                        </h2>
+                                    </div>
+                                </div>
+                                <div class="story-list_news">
+                                    <div class="story-list_image">
+                                        <img class="leader2_2_img">
+                                    </div>
+                                    <div class="story-list_text">
+                                        <h2 class="story-list_title">
+                                            <a class="story-list_sub">新聞小標</a>
+                                            <div class="leader_title_2_r"></div>
+                                        </h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- 評論 -->
+            <section class="comment">
+                <header class="context-box_header">
+                    <h3 class="context-box_title">評論</h3>
+                </header>
+                <div class="comment_content">
+                    <div class="author-list">
+                        <div class="author-list_image">
+                            <img class="comment_photo_1_img">
+                        </div>
+                        <div class="author-list_wrapper">
+                            <div class="author-list_info">
+                                <span class="author-list_name comment_info_name_1"></span>
+                                <span class="author-list_position comment_info_position_1"></span>
+                            </div>
+                            <h2 class="author-list_title">
+                                <div class="comment_title_1"></div>
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="author-list">
+                        <div class="author-list_image">
+                            <img class="comment_photo_2_img">
+                        </div>
+                        <div class="author-list_wrapper">
+                            <div class="author-list_info">
+                                <span class="author-list_name comment_info_name_2"></span>
+                                <span class="author-list_position comment_info_position_2"></span>
+                            </div>
+                            <h2 class="author-list_title">
+                                <div class="comment_title_2"></div>
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="author-list">
+                        <div class="author-list_image">
+                            <img class="comment_photo_3_img">
+                        </div>
+                        <div class="author-list_wrapper">
+                            <div class="author-list_info">
+                                <span class="author-list_name comment_info_name_3"></span>
+                                <span class="author-list_position comment_info_position_3"></span>
+                            </div>
+                            <h2 class="author-list_title">
+                                <div class="comment_title_3"></div>
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="author-list">
+                        <div class="author-list_image">
+                            <img class="comment_photo_4_img">
+                        </div>
+                        <div class="author-list_wrapper">
+                            <div class="author-list_info">
+                                <span class="author-list_name comment_info_name_4"></span>
+                                <span class="author-list_position comment_info_position_4"></span>
+                            </div>
+                            <h2 class="author-list_title">
+                                <div class="comment_title_4"></div>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <!-- 聯合副刊 | 閱讀 -->
+        <section class="supplement-content">
+            <div class="container">
+                <header class="context-box_header">
+                    <h3 class="context-box_title">聯合副刊 | 閱讀</h3>
+                </header>
+                <div class="supplement-content_wrapper">
+                    <div class="supplement-content_left">
+                        <div class="supplement-content_description">
+                            <p class="supplement-content_text"></p>
+                            <h2 class="supplement-content_title"></h2>
+                        </div>
+                    </div>
+                    <div class="supplement-content_image">
+                        <img class="supplement_img">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- 軍武科技 發燒話題 -->
+        <section class="secondary-content">
+            <div class="container">
+                <section class="technology-content">
+                    <header class="context-box_header">
+                        <h3 class="context-box_title">軍武科技 </h3>
+                    </header>
+                    <div class="technology-content_list">
+                        <div class="story-list_news">
+                            <div class="story-list_image">
+                                <img class="technology_img_1">
+                            </div>
+                            <div class="story-list_text">
+                                <h2 class="story-list_title">
+                                    <a class="technology_title_1"></a>
+                                </h2>
+                                <p>
+                                    <a class="technology_text_1"></a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="story-list_news">
+                            <div class="story-list_image">
+                                <img class="technology_img_2">
+                            </div>
+                            <div class="story-list_text">
+                                <h2 class="story-list_title">
+                                    <a class="technology_title_2"></a>
+                                </h2>
+                                <p>
+                                    <a class="technology_text_2"></a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="life-content">
+                    <header class="context-box_header">
+                        <h3 class="context-box_title">發燒話題</h3>
+                    </header>
+                    <div class="life-content_list">
+                        <div class="story-list_news">
+                            <div class="story-list_image">
+                                <img class="life_img_1">
+                            </div>
+                            <div class="story-list_text">
+                                <h2 class="story-list_title">
+                                    <a class="life_title_1"></a>
+                                </h2>
+                                <p>
+                                    <a class="life_text_1"></a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="story-list_news">
+                            <div class="story-list_image">
+                                <img class="life_img_2">
+                            </div>
+                            <div class="story-list_text">
+                                <h2 class="story-list_title">
+                                    <a class="life_title_2"></a>
+                                </h2>
+                                <p>
+                                    <a class="life_text_2"></a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+        <!-- 最新文章 -->
+        <section class="section-newest">
+            <div class="container">
+                <header class="context-box_header">
+                    <h2 class="context-box_title">最新文章</h2>
+                </header>
+                <div class="story-list">
+                    <div class="story-list_news">
+                        <div class="story-list_image">
+                            <img class="newest_img_1">
+                        </div>
+                        <div class="story-list_text">
+                            <h2 class="story-list_title newest_title_1"></h2>
+                            <p class="newest_text_1"></p>
+                        </div>
+                    </div>
+                    <div class="story-list_news">
+                        <div class="story-list_image">
+                            <img class="newest_img_2">
+                        </div>
+                        <div class="story-list_text">
+                            <h2 class="story-list_title newest_title_2"></h2>
+                            <p class="newest_text_2"></p>
+                        </div>
+                    </div>
+
+                    <div class="story-list_news">
+                        <div class="story-list_image">
+                            <img class="newest_img_3">
+                        </div>
+                        <div class="story-list_text">
+                            <h2 class="story-list_title newest_title_3"></h2>
+                            <p class="newest_text_3"></p>
+                        </div>
+                    </div>
+                    <div class="story-list_news">
+                        <div class="story-list_image">
+                            <img class="newest_img_4">
+                        </div>
+                        <div class="story-list_text">
+                            <h2 class="story-list_title newest_title_4"></h2>
+                            <p class="newest_text_4"></p>
+                        </div>
+                    </div>
+
+                    <div class="story-list_news">
+                        <div class="story-list_image">
+                            <img class="newest_img_5">
+                        </div>
+                        <div class="story-list_text">
+                            <h2 class="story-list_title newest_title_5"></h2>
+                            <p class="newest_text_5"></p>
+                        </div>
+                    </div>
+                    <div class="story-list_news">
+                        <div class="story-list_image">
+                            <img class="newest_img_6">
+                        </div>
+                        <div class="story-list_text">
+                            <h2 class="story-list_title newest_title_6"></h2>
+                            <p class="newest_text_6"></p>
+                        </div>
+                    </div>
+
+                    <div class="story-list_news">
+                        <div class="story-list_image">
+                            <img class="newest_img_7">
+                        </div>
+                        <div class="story-list_text">
+                            <h2 class="story-list_title newest_title_7"></h2>
+                            <p class="newest_text_7"></p>
+                        </div>
+                    </div>
+                    <div class="story-list_news">
+                        <div class="story-list_image">
+                            <img class="newest_img_8">
+                        </div>
+                        <div class="story-list_text">
+                            <h2 class="story-list_title newest_title_8"></h2>
+                            <p class="newest_text_8"></p>
+                        </div>
+                    </div>
+
+                    <div class="story-list_news">
+                        <div class="story-list_image">
+                            <img class="newest_img_9">
+                        </div>
+                        <div class="story-list_text">
+                            <h2 class="story-list_title newest_title_9"></h2>
+                            <p class="newest_text_9"></p>
+                        </div>
+                    </div>
+                    <div class="story-list_news">
+                        <div class="story-list_image">
+                            <img class="newest_img_10">
+                        </div>
+                        <div class="story-list_text">
+                            <h2 class="story-list_title newest_title_10"></h2>
+                            <p class="newest_text_10"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- 聯合開POD -->
+        <section class="pod-content">
+            <div class="pod-content_wrapper">
+                <header class="context-box_header">
+                    <h3 class="context-box_title">聯合開Pod</h3>
+                </header>
+                <div class="pod-content_item">
+                    <div class="story-list_news">
+                        <div class="story-list_image">
+                            <img class="pod_img_1">
+                        </div>
+                        <div class="story-list_text">
+                            <h2 class="story-list_title pod_title_1"></h2>
+                        </div>
+                    </div>
+                    <div class="story-list_news">
+                        <div class="story-list_image">
+                            <img class="pod_img_2">
+                        </div>
+                        <div class="story-list_text">
+                            <h2 class="story-list_title pod_title_2"></h2>
+                        </div>
+                    </div>
+                    <div class="story-list_news">
+                        <div class="story-list_image">
+                            <img class="pod_img_3">
+                        </div>
+                        <div class="story-list_text">
+                            <h2 class="story-list_title pod_title_3"></h2>
+                        </div>
+                    </div>
+                    <div class="story-list_news">
+                        <div class="story-list_image">
+                            <img class="pod_img_4">
+                        </div>
+                        <div class="story-list_text">
+                            <h2 class="story-list_title pod_title_4"></h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- 頁尾 -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer_social">
+                    <a>
+                        <img class="footer_social_FB" style="height: 32px" />
+                    </a>
+                    <a>
+                        <img class="footer_social_IG" style="height: 32px" />
+                    </a>
+                    <a>
+                        <img class="footer_social_LINE" style="height: 32px" />
+                    </a>
+                    <a>
+                        <img class="footer_social_YT" style="height: 32px" />
+                    </a>
+                </div>
+                <nav class="footer-note__wrapper">
+                    <a href="https://vip.udn.com/member/products?from=footer" title="產品介紹"
+                        class="footer-note__link">產品介紹</a>
+                    <a href="https://vip.udn.com/member/qa/faq?from=footer" title="常見問題"
+                        class="footer-note__link">常見問題</a>
+                    <a class="footer-note__link" href="https://vip.udn.com/member/qa/contact?from=footer">我要發問</a>
+                    <a class="footer-note__link" href="https://vip.udn.com/vip/corporate">企業團購</a>
+                    <a style="padding-left: 5px" target="_blank"
+                        href="http://www.udngroup.com/members/udn_privacy?from=footer" title="隱私政策">隱私政策</a>
+                    &amp;
+                    <a class="footer-note__link" target="_blank"
+                        href="http://www.udngroup.com/members/service?from=footer" title="服務條款">服務條款</a><a
+                        href="https://bit.ly/3sklf1q" style="padding-left: 10px" title="聯合新聞網">聯合新聞網</a>
+                </nav>
+
+                <div class="footer-word" style="padding-top: 10px; text-align: center">
+                    聯合報系著作權所有 © 2020-22 All Rights Reserved
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="./script/1_todaynews.js"></script>
+    <script src="./script/2_comment.js"></script>
+    <script src="./script/3_secondary.js"></script>
+    <script src="./script/4_footer.js"></script>
+</body>
+
+</html>

@@ -1,28 +1,4 @@
 // sectionnews
-// international_img
-update_El_a_Img('international_img',international_img_Data);
-update_El_a_Img('international_2_img',international_2_img_Data);
-// finance_img
-update_El_a_Img('finance_img',international_img_Data);
-update_El_a_Img('finance_2_img',international_2_img_Data);
-
-// leader_img
-update_El_a_Img('leader_photo_img',author01_img_Data);
-update_El_a_Img('leader_img',lastnews_img_Data);
-update_El_a_Img('leader_2_img',lastnews_img_Data);
-update_El_a_Img('leader2_photo_img',author01_img_Data);
-update_El_a_Img('leader2_img',lastnews_img_Data);
-update_El_a_Img('leader2_2_img',lastnews_img_Data);
-
-// comment
-update_El_a_Img('comment_photo_1_img',author01_img_Data);
-update_El_a_Img('comment_photo_2_img',author01_img_Data);
-update_El_a_Img('comment_photo_3_img',author01_img_Data);
-update_El_a_Img('comment_photo_4_img',author01_img_Data);
-
-
-// text
-// sectionnews
 update_El_a_text('sectionnews_title', sectionnews_text_Data[0]);
 update_El_a_text('sectionnews_content', sectionnews_text_Data[1]);
 update_El_a_text('sectionnews_title_2', sectionnews_text_Data[2]);
@@ -59,3 +35,13 @@ update_El_a_text('comment_info_position_3', comment_text_Data[2]);
 update_El_a_text('comment_title_4', comment_text_Data[0]);
 update_El_a_text('comment_info_name_4', comment_text_Data[1]);
 update_El_a_text('comment_info_position_4', comment_text_Data[2]);
+
+update_El_a_Img('comment_photo_1_img', author01_img_Data);
+update_El_a_Img('comment_photo_2_img', author01_img_Data);
+update_El_a_Img('comment_photo_3_img', author01_img_Data);
+update_El_a_Img('comment_photo_4_img', author01_img_Data);
+
+//supplement
+update_El_a_text('supplement-content_text', supplement_text_Data[0]);
+update_El_a_text('supplement-content_title', supplement_text_Data[1]);
+update_El_a_Img('supplement_img', supplement_img_Data);

@@ -13,22 +13,38 @@ update_El_a_text = (targetClass, targetData) => {
 
 
 // leftnews_img
-update_El_a_Img('firstnews_img',leftnews_img_Data);   
+update_El_a_Img('firstnews_img', leftnews_img_Data);
 // midnews_img
-update_El_a_Img('centernews_img',center_img_Data);
-update_El_a_Img('lastnews_img',lastnews_img_Data);
+update_El_a_Img('centernews_img', center_img_Data);
+update_El_a_Img('lastnews_img', lastnews_img_Data);
 // rightnews_img
-update_El_a_Img('author01',author01_img_Data);
-
+update_El_a_Img('author01', author01_img_Data);
+// recommended_img
+update_El_a_Img('recommended_1_img', recommended_img_Data);
+update_El_a_Img('recommended_2_img', recommended_img_Data);
+update_El_a_Img('recommended_3_img', recommended_img_Data);
+update_El_a_Img('recommended_4_img', recommended_img_Data);
 // graphic_img
-update_El_a_Img('graphic_img',graphic_img_Data);
+update_El_a_Img('graphic_img', graphic_img_Data);
 // news_img
-update_El_a_Img('news_img',news_img_Data);
+update_El_a_Img('news_img', news_img_Data);
+update_El_a_Img('news_img_1023', news_img_Data);
 
+// sectionnews
+// international_img
+update_El_a_Img('international_img', international_img_Data);
+update_El_a_Img('international_2_img', international_2_img_Data);
+// finance_img
+update_El_a_Img('finance_img', international_img_Data);
+update_El_a_Img('finance_2_img', international_2_img_Data);
 
-
-
-
+// leader_img
+update_El_a_Img('leader_photo_img', author01_img_Data);
+update_El_a_Img('leader_img', lastnews_img_Data);
+update_El_a_Img('leader_2_img', lastnews_img_Data);
+update_El_a_Img('leader2_photo_img', author01_img_Data);
+update_El_a_Img('leader2_img', lastnews_img_Data);
+update_El_a_Img('leader2_2_img', lastnews_img_Data);
 
 // text
 
@@ -54,14 +70,3 @@ update_El_a_text('recommended_4', recommended_text_Data[3]);
 // graphic
 update_El_a_text('graphic_title', graphic_text_Data[0]);
 update_El_a_text('graphic_content', graphic_text_Data[1]);
-
-
-
-
-
-
-// const target_aElement = document.getElementsByClassName('story-list_title');
-// target_aElement[0].children[0].innerHTML=leftnews_text_Data[0].text;
-// target_aElement[1].children[0].innerHTML=leftnews_text_Data[1].text;
-// target_aElement[2].children[0].innerHTML=leftnews_text_Data[2].text;
-// target_aElement[3].children[0].innerHTML=leftnews_text_Data[3].text;
