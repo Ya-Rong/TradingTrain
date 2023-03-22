@@ -1,3 +1,7 @@
+//supplement
+update_El_a_text('supplement-content_text', supplement_text_Data[0]);
+update_El_a_text('supplement-content_title', supplement_text_Data[1]);
+update_El_a_Img('supplement_img', supplement_img_Data);
 //technology
 update_El_a_text('technology_title_1', technology_text_Data[0]);
 update_El_a_text('technology_text_1', technology_text_Data[1]);
@@ -5,7 +9,7 @@ update_El_a_Img('technology_img_1', technology_img_Data[0]);
 update_El_a_text('technology_title_2', technology_text_Data[2]);
 update_El_a_text('technology_text_2', technology_text_Data[3]);
 update_El_a_Img('technology_img_2', technology_img_Data[1]);
-//technology
+//life
 update_El_a_text('life_title_1', life_text_Data[0]);
 update_El_a_text('life_text_1', life_text_Data[1]);
 update_El_a_Img('life_img_1', life_img_Data[0]);

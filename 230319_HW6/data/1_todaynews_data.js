@@ -36,7 +36,7 @@ const graphic_img_Data = {
 }
 // news_img
 const news_img_Data = {
-    src: './data/img/news.jpg',
+    src: './data/img/todaynews.jpg',
     text: 'bla bla bla bla bla bla bla bla bla bla bla bla bla',
     href: "https://youtu.be/dQw4w9WgXcQ",
 }

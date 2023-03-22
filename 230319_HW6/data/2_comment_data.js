@@ -29,10 +29,10 @@ const leader_text_Data = [{
     text: '職位',
     href: "https://youtu.be/dQw4w9WgXcQ",
 }, {
-    text: '文章標題文章標題',
+    text: '文章標題',
     href: "https://youtu.be/dQw4w9WgXcQ",
 }, {
-    text: '文章標題文章標題',
+    text: '文章標題',
     href: "https://youtu.be/dQw4w9WgXcQ",
 }];
 // comment
