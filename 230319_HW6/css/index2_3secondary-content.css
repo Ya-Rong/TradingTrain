@@ -103,7 +103,7 @@
     :root{
         --main-width:100%;
         --supplement-width:calc(100% - 24px);
-        --supplement-height:660px;
+        --supplement-height:calc(70vw + 177.5px);
         --supplement-left-width:100%;
         --supplement-img-width:100%;
         --secondary-header-width:100%;
