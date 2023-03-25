@@ -17,6 +17,12 @@
     .header .container .menu {
         display: flex;
     }
+    .splide01, .splide02, .splide03, .splide04, .splide05,
+    .splide06, .splide07, .splide08, .splide09, .splide10 ,
+    .splide11, .splide12  {
+        margin-left: 12px;
+        margin-right: 8px;
+    }
     .list-news {
         width: 100%;
         display: flex;
@@ -68,6 +74,11 @@
     }
     .header .container .menu {
         display: flex;
+    }
+    .splide01, .splide02, .splide03, .splide04, .splide05,
+    .splide06, .splide07, .splide08, .splide09, .splide10 ,
+    .splide11, .splide12  {
+        margin-left: 12px;
     }
     .list-news {
         width: 100%;
@@ -129,6 +140,11 @@
     }
     .header .container .menu {
         display: flex;
+    }
+    .splide01, .splide02, .splide03, .splide04, .splide05,
+    .splide06, .splide07, .splide08, .splide09, .splide10 ,
+    .splide11, .splide12  {
+        margin-left: 12px;
     }
     .tools-box {
         width: 235px;
@@ -208,6 +224,12 @@
     }
     .header .container {
         height: 60px;
+    }
+    .splide01, .splide02, .splide03, .splide04, .splide05,
+    .splide06, .splide07, .splide08, .splide09, .splide10 ,
+    .splide11, .splide12  {
+        margin-left: 8px;
+        margin-right: 4px;
     }
     .menu2 {
         height: 52px;
@@ -327,21 +349,36 @@ img {
     width: calc(100% - var(--logo-width) - var(--tools-box-width));
 }
 .navigation {
-    width: 768px;
+    width: var(--main-width);
     display: flex;
     align-items: center;
     /* overflow: hidden; */
     z-index: -1;
 }
 .splide_track {
-    width: 768px;
+    width: var(--main-width);
     height: 50px;
     display: flex;
     align-items: center;
     overflow: hidden;
     position: relative;
 }
-.nav-menu {
+.menu2 .navigation {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* overflow: hidden; */
+    z-index: -1;
+}
+.menu2 .splide_track {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+.menu2 .nav-menu {
     width: 50px;
     display: flex;
 }
@@ -350,12 +387,12 @@ img {
 .splide11, .splide12  {
     width: auto;
     height: 27px;
-    margin-right: 14px;
-    font-size: 18px;
+    /* margin-right: 12px; */
+    font-size: 16px;
     line-height: 27px;
     display: flex;
     align-content: center;
-    flex-direction: row;
+    /* flex-direction: row; */
     flex-wrap: wrap;
     position: relative;
     align-self: center;
