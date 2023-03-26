@@ -176,7 +176,7 @@ const footerList = [
         href: "https://youtu.be/dQw4w9WgXcQ",
     },
     {
-        src: './data/img/LINE.png',
+        src: './data/img/line.png',
         href: "https://youtu.be/dQw4w9WgXcQ",
     },
     {
