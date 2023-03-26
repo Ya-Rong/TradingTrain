@@ -175,7 +175,7 @@
         margin-top: 16px;
     }
     .editor-news, .recommended-news {
-        margin-top: 40px;
+        margin-top: 24px;
         padding-left: 0;
         width: 100%;
     }
@@ -224,8 +224,8 @@
         --tools-box-width:200px;
         --mid-width:100%;
         --right-width:100%;
-        --editor-width:calc(75% - 24px);
-        --todaynews-width:calc(25% - 12px);
+        --editor-width:calc(100% - 158px);
+        --todaynews-width:122px;
         --recommended-width:100%;
         --graphic-width:100%;
         --graphic-img-width:100%;
@@ -639,7 +639,6 @@ img {
 /* graphic-news */
 .graphic-news {
     width: var(--graphic-width);
-    margin-top: 40px;
 }
 .graphic-news .context-box_header {
     margin-top: 40px;
