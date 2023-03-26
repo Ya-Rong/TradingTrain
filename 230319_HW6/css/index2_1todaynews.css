@@ -27,6 +27,10 @@
         width: 100%;
         display: flex;
     }
+    .mid_text a {
+        font-size: 50px;
+        bottom: 120px;
+    }
     .editor-news {
         margin-top: 16px;
     }
@@ -83,6 +87,10 @@
     .list-news {
         width: 100%;
         display: flex;
+    }
+    .mid_text a {
+        font-size: 50px;
+        bottom: 120px;
     }
     .menu2, .list-news_left, .newspaper-news_1023, .newspaper-news_768,
     .recommended-news .story-list_news .story-list_image {
@@ -145,6 +153,7 @@
     .splide06, .splide07, .splide08, .splide09, .splide10 ,
     .splide11, .splide12  {
         margin-left: 12px;
+        word-break: keep-all;
     }
     .tools-box {
         width: 235px;
@@ -153,6 +162,10 @@
         display: flex;
         /* flex-direction: column; */
         flex-wrap: wrap;
+    }
+    .mid_text a {
+        font-size: 50px;
+        bottom: 120px;
     }
     .menu2, .list-news_left, .list-news_last, .newspaper-news,
     .newspaper-news_768,.recommended-news .context-box_title {
@@ -230,22 +243,35 @@
     .splide11, .splide12  {
         margin-left: 8px;
         margin-right: 4px;
+        word-break: keep-all;
     }
     .menu2 {
         height: 52px;
         display: flex;
+    }
+    .menu2 .navigation {
+        word-break: keep-all;
+    }
+    .menu2 .splide_track {
+        overflow: auto;
+        word-break: keep-all;
+        overflow-y: hidden;
     }
     .list-news_right {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
     }
+    .mid_text a {
+        font-size: 30px;
+        bottom: 70px;
+    }
     .editor-news {
         margin-top: 24px;
         height: 100%;
     }
     .editor-news, .recommended-news { 
-        margin-top: 40px;      
+        margin-top: 24px;      
         padding-left: 12px;
         padding-right: 12px;
     }
@@ -259,6 +285,9 @@
         padding-right: 12px;
         height: 100%;
         /* background-color: transparent; */
+    }
+    .newspaper-news_768 .context-box_title768 {
+        word-break: keep-all;
     }
     .recommended-news .story-list_news {
         margin-bottom: 30px;
@@ -486,15 +515,12 @@ img {
     height: 0px;
 }
 .mid_text a {
-    width: 95%;
+    width: 100%;
     position: relative;
-    bottom: 120px;
-    /* height: 120px; */
-    font-size: 50px;
     font-weight: 900;
     line-height: 1.15;
     margin: 0;
-    padding-left: 5%;
+    /* padding-left: 5%; */
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
