@@ -21,3 +21,5 @@
 <!-- ##### [HW6_wireframe_刻成網頁]() -->
 ##### [webframe](https://ya-rong.github.io//TradingTrain/230108_HW6/index1.html)
 ##### [new_webframe](https://ya-rong.github.io//TradingTrain/230319_HW6/index2.html)
+##### [Vue](https://hackmd.io/@yaaaarong/HJhP_Fhxh)
+##### [SPA vs. MPA](https://hackmd.io/@yaaaarong/HyAmk-lfn)
