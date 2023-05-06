@@ -40,7 +40,7 @@ export default {
       publicWalletAddress.value = '';
     }
 
-    // 返回要在模板中使用的所有變量和函數，這裡使用 ES6 物件簡寫的方式
+    // 返回要在模板中使用的所有變量和函數
     return {
       publicWalletAddress,
       connectPhantom,
