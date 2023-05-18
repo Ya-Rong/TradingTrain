@@ -485,3 +485,48 @@ DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ecshweb.pchome.c
 DEBUG:urllib3.connectionpool:https://ecshweb.pchome.com.tw:443 "GET /search/v3.3/all/results?q=%E7%AD%86%E9%9B%BB&page=15&sort=sale/dc HTTP/1.1" 200 None
 DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ecshweb.pchome.com.tw:443
 DEBUG:urllib3.connectionpool:https://ecshweb.pchome.com.tw:443 "GET /search/v3.3/all/results?q=%E7%AD%86%E9%9B%BB&page=16&sort=sale/dc HTTP/1.1" 200 None
+DEBUG:root:Scraping page 1
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ecshweb.pchome.com.tw:443
+DEBUG:urllib3.connectionpool:https://ecshweb.pchome.com.tw:443 "GET /search/v3.3/all/results?q=%E7%AD%86%E9%9B%BB&page=1&sort=sale/dc HTTP/1.1" 200 None
+DEBUG:root:Scraping page 2
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ecshweb.pchome.com.tw:443
+DEBUG:urllib3.connectionpool:https://ecshweb.pchome.com.tw:443 "GET /search/v3.3/all/results?q=%E7%AD%86%E9%9B%BB&page=2&sort=sale/dc HTTP/1.1" 200 None
+DEBUG:root:Scraping page 3
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ecshweb.pchome.com.tw:443
+DEBUG:urllib3.connectionpool:https://ecshweb.pchome.com.tw:443 "GET /search/v3.3/all/results?q=%E7%AD%86%E9%9B%BB&page=3&sort=sale/dc HTTP/1.1" 200 None
+DEBUG:root:Scraping page 4
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ecshweb.pchome.com.tw:443
+DEBUG:urllib3.connectionpool:https://ecshweb.pchome.com.tw:443 "GET /search/v3.3/all/results?q=%E7%AD%86%E9%9B%BB&page=4&sort=sale/dc HTTP/1.1" 200 None
+DEBUG:root:Scraping page 5
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ecshweb.pchome.com.tw:443
+DEBUG:urllib3.connectionpool:https://ecshweb.pchome.com.tw:443 "GET /search/v3.3/all/results?q=%E7%AD%86%E9%9B%BB&page=5&sort=sale/dc HTTP/1.1" 200 None
+DEBUG:root:Scraping page 6
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ecshweb.pchome.com.tw:443
+DEBUG:urllib3.connectionpool:https://ecshweb.pchome.com.tw:443 "GET /search/v3.3/all/results?q=%E7%AD%86%E9%9B%BB&page=6&sort=sale/dc HTTP/1.1" 200 None
+DEBUG:root:Scraping page 7
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ecshweb.pchome.com.tw:443
+DEBUG:urllib3.connectionpool:https://ecshweb.pchome.com.tw:443 "GET /search/v3.3/all/results?q=%E7%AD%86%E9%9B%BB&page=7&sort=sale/dc HTTP/1.1" 200 None
+DEBUG:root:Scraping page 8
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ecshweb.pchome.com.tw:443
+DEBUG:urllib3.connectionpool:https://ecshweb.pchome.com.tw:443 "GET /search/v3.3/all/results?q=%E7%AD%86%E9%9B%BB&page=8&sort=sale/dc HTTP/1.1" 200 None
+DEBUG:root:Scraping page 9
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ecshweb.pchome.com.tw:443
+DEBUG:urllib3.connectionpool:https://ecshweb.pchome.com.tw:443 "GET /search/v3.3/all/results?q=%E7%AD%86%E9%9B%BB&page=9&sort=sale/dc HTTP/1.1" 200 None
+DEBUG:root:Scraping page 10
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ecshweb.pchome.com.tw:443
+DEBUG:urllib3.connectionpool:https://ecshweb.pchome.com.tw:443 "GET /search/v3.3/all/results?q=%E7%AD%86%E9%9B%BB&page=10&sort=sale/dc HTTP/1.1" 200 None
+DEBUG:root:Scraping page 11
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ecshweb.pchome.com.tw:443
+DEBUG:urllib3.connectionpool:https://ecshweb.pchome.com.tw:443 "GET /search/v3.3/all/results?q=%E7%AD%86%E9%9B%BB&page=11&sort=sale/dc HTTP/1.1" 200 None
+DEBUG:root:Scraping page 12
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ecshweb.pchome.com.tw:443
+DEBUG:urllib3.connectionpool:https://ecshweb.pchome.com.tw:443 "GET /search/v3.3/all/results?q=%E7%AD%86%E9%9B%BB&page=12&sort=sale/dc HTTP/1.1" 200 None
+DEBUG:root:Scraping page 13
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ecshweb.pchome.com.tw:443
+DEBUG:urllib3.connectionpool:https://ecshweb.pchome.com.tw:443 "GET /search/v3.3/all/results?q=%E7%AD%86%E9%9B%BB&page=13&sort=sale/dc HTTP/1.1" 200 None
+DEBUG:root:Scraping page 14
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ecshweb.pchome.com.tw:443
+DEBUG:urllib3.connectionpool:https://ecshweb.pchome.com.tw:443 "GET /search/v3.3/all/results?q=%E7%AD%86%E9%9B%BB&page=14&sort=sale/dc HTTP/1.1" 200 None
+DEBUG:root:Scraping page 15
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): ecshweb.pchome.com.tw:443
+DEBUG:urllib3.connectionpool:https://ecshweb.pchome.com.tw:443 "GET /search/v3.3/all/results?q=%E7%AD%86%E9%9B%BB&page=15&sort=sale/dc HTTP/1.1" 200 None
