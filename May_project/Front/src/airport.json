@@ -1,0 +1,22 @@
+[
+    {
+      "name": "John F. Kennedy International Airport",
+      "city": "New York",
+      "country": "USA",
+      "iata_code": "JFK"
+    },
+    {
+      "name": "Los Angeles International Airport",
+      "city": "Los Angeles",
+      "country": "USA",
+      "iata_code": "LAX"
+    },
+    {
+      "name": "Heathrow Airport",
+      "city": "London",
+      "country": "UK",
+      "iata_code": "LHR"
+    }
+    
+  ]
+  
