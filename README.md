@@ -21,6 +21,7 @@
 <!-- ##### [HW6_wireframe_刻成網頁]() -->
 ##### [webframe](https://ya-rong.github.io//TradingTrain/230108_HW6/index1.html)
 ##### [new_webframe](https://ya-rong.github.io//TradingTrain/230319_HW6/index2.html)
+##### [cascading_style_sheets_practice](https://ya-rong.github.io//TradingTrain/230129/index.html)
 #### Vue
 ##### [Vue](https://hackmd.io/@yaaaarong/HJhP_Fhxh)
 ##### [SPA vs. MPA](https://hackmd.io/@yaaaarong/HyAmk-lfn)

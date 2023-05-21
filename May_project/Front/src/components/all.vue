@@ -78,6 +78,7 @@
   import VueCookies from 'vue-cookies'
   import { useRouter } from 'vue-router'
   
+  
   export default {
     setup() {
       const from = ref('')
@@ -256,8 +257,7 @@
   }
   
   .login {
-    display: flex;
-    justify-content: flex-end;
+    display: flex-end;
     padding: 10px;
   }
   
@@ -272,5 +272,16 @@
     height: 200px;
     background-color: lightgray;
     margin: 10px;
+  }
+
+  .el-form {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .el-form-item {
+    width: 50%;
+    margin-right: 10px;
   }
   </style>

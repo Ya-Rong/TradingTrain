@@ -1,28 +1,34 @@
 <template>
-    <div>
+    <div class="searchblock">
       <h1>Flight Search</h1>
-      <el-form @submit.prevent="searchFlights">
-        <el-form-item label="From:">
-          <el-cascader v-model="from" :options="airports" @change="handleChange" />
-        </el-form-item>
-        <el-form-item label="To:">
-          <el-cascader v-model="to" :options="airports" @change="handleChange" />
-        </el-form-item>
-        <el-form-item label="Depart:">
-          <el-date-picker v-model="departDate" type="date"></el-date-picker>
-        </el-form-item>
-        <el-form-item label="Return:">
-          <el-date-picker v-model="returnDate" type="date"></el-date-picker>
-        </el-form-item>
-        <el-form-item label="Passengers:">
-          <el-select v-model="passengers" placeholder="Select number of passengers">
-            <el-option v-for="num in 10" :key="num" :label="num" :value="num"></el-option>
-          </el-select>
-        </el-form-item>
-        <el-form-item>
-          <el-button type="primary" native-type="submit">Search Flights</el-button>
-        </el-form-item>
-      </el-form>
+      <div>
+        <el-form @submit.prevent="searchFlights" :gutter="24" class="gridtop">
+          <el-form-item label="From:" :span="12" class="grid-content">
+            <el-cascader v-model="from" :options="airports" @change="handleChange" style="width: 100%;" />
+          </el-form-item>
+          <el-form-item label="To:" :span="12" class="grid-content">
+            <el-cascader v-model="to" :options="airports" @change="handleChange" style="width: 100%;" />
+          </el-form-item>
+        </el-form>
+        <el-form @submit.prevent="searchFlights" :gutter="24" class="gridmiddle">
+          <el-form-item label="Depart:" :span="6" class="grid-content depart">
+            <el-date-picker v-model="departDate" type="date"></el-date-picker>
+          </el-form-item>
+          <el-form-item label="Return:" :span="6" class="grid-content return">
+            <el-date-picker v-model="returnDate" type="date"></el-date-picker>
+          </el-form-item>
+          <el-form-item label="Passengers:" :span="12" class="grid-content passengers">
+            <el-select v-model="passengers" placeholder="Select number of passengers">
+              <el-option v-for="num in 10" :key="num" :label="num" :value="num"></el-option>
+            </el-select>
+          </el-form-item>
+        </el-form>
+        <el-form @submit.prevent="searchFlights" :gutter="24" class="gridbottom">
+          <el-form-item :span="24" class="grid-content">
+            <el-button type="primary" native-type="submit">Search Flights</el-button>
+          </el-form-item>
+        </el-form>
+      </div>
       <ul>
         <li v-for="flight in flights" :key="flight.id">
           <h3>{{ flight.origin }} to {{ flight.destination }}</h3>
@@ -33,11 +39,21 @@
       </ul>
     </div>
     <div class="flightlist">
-      <div class="flight"></div>
-      <div class="flight"></div>
-      <div class="flight"></div>
-      <div class="flight"></div>
-      <div class="flight"></div>
+      <div class="flight first">
+        <h1> 5月 台北 - 東京 </h1>
+      </div>
+      <div class="flight second">
+        <h1> 5月 台北 - 大阪 </h1>
+      </div>
+      <div class="flight third">
+        <h1> 5月 台北 - 沖繩 </h1>
+      </div>
+      <div class="flight forth">
+        <h1> 5月 台北 - 首爾 </h1>
+      </div>
+      <div class="flight fifth">
+        <h1> 5月 台北 - 濟州島 </h1>
+      </div>
     </div>
     <router-view></router-view>
   </template>
@@ -224,5 +240,54 @@
     height: 200px;
     background-color: lightgray;
     margin: 10px;
+  }
+
+  .searchblock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px black;
+  }
+  .el-form {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .el-form-item {
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  .gridtop, .gridmiddle, .gridbottom {
+    display: flex;
+  }
+  .gridbottom {
+    flex-direction: row-reverse;
+  }
+  .el-select {
+    width: 100%;
+  }
+  .gridtop .grid-content, .gridmiddle .passengers {
+    width: 50%;
+  }
+  .depart, .return {
+    width: calc(25% - 10px);
+  }
+  .grid-content {
+    border-radius: 4px;
+    min-height: 36px;
+  }
+  .flightlist {
+    display: flex;
+    flex-direction: column;
+  }
+  .flight {    
+    display: flex;
+    justify-content: center;
+  }
+  .flight h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center
   }
   </style>
